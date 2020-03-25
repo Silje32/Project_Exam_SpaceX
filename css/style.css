@@ -9,7 +9,9 @@
 
 /* Global styles
 -------------------*/
-
+html, body {
+  background-color: black;
+}
 
 
 /* Header and Footer
