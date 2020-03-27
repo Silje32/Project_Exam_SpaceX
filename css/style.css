@@ -1,10 +1,13 @@
 /*Color Palette
-01. #E36822
-02.
-03.
-04.
-05.
+01. #E36822 - orange
+02. white
+03. black
+04. #7F7967 - steal
+05. #332717 - metal
+06. #0A973D - kryptonite / action buttons
 */
+
+
 
 
 /* Global styles
@@ -16,7 +19,15 @@ html, body {
 h1 {
   color: #E36822;
 }
-
+h2 {
+  color: #7F7967;
+}
+blockquote {
+  color : #332717;
+  background-color: white;
+  width: 40%;
+  padding: 10%;
+}
 
 /* Header and Footer
 -------------------*/
@@ -37,7 +48,9 @@ h1 {
 
 /* Action button on the index page
 ----------------------------------- */
-
+a.action {
+  color: #0A973D;
+}
 
 
 
