@@ -12,6 +12,16 @@
 
 /* Global styles
 -------------------*/
+
+@font-face {
+    font-family: 'nasalization-rg';
+    src: url('webfont/nasalization-rg-webfont.woff2') format('woff2'),
+         url('webfont/nasalization-rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html, body {
   background-color: black;
 }
@@ -19,16 +29,18 @@ html, body {
 h1 {
   color: #E36822;
   text-align: center;
-  font: arial, sans-serif;
+  font-family: 'Arial', 'sans-serif';
+  font-size: 50px;
 }
 h2 {
   color: #7F7967;
   text-align: center;
+  font-family: 'Verdana', 'sans-serif';
 }
 blockquote {
   color : #332717;
   background-color: white;
-  font: georgia, serif;
+  font-family: 'Georgia', 'serif';
   width: 40%;
   padding: 10%;
 }
