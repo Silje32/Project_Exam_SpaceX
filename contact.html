@@ -17,6 +17,45 @@
 
   </head>
    <body>
+     <div id="submitMessage"> Your form was submitted. </div>
+
+     <form id="contactForm">
+              <div>
+                 <label>First Name:
+                     <input id="name" placeholder="First name *" />
+                 </label>
+                     <div class="form-error" id="nameError">Please enter your first name</div>
+              </div>
+
+              <div>
+                 <label>Last Name:
+                     <input id="lastName" placeholder="Last name (at least 3 characters)*" />
+                 </label>
+                     <div class="form-error" id="lastNameError">Your last name must have at least 3 characters</div>
+              </div>
+
+              <div>
+                 <label>E-mail:
+                     <input id="email" placeholder="Email *" />
+                 </label>
+                     <div class="form-error" id="emailError">Please enter a valid email address</div>
+              </div>
+
+              <div>
+                 <label>Phone number:
+                     <input id="phone" placeholder="Phone Number *" />
+                 </label>
+                     <div class="form-error" id="phoneError">Please enter a valid phone number</div>
+              </div>
+
+              <div>
+                 <textarea id="message">Enter your message...</textarea>
+                 <div class="error" id="messageError">Your message must have at least 6 characters</div>
+              </div>
+
+              <button type="submit">Submit</button>
+     </form>
+
      <script src="javascript/form.js"></script>
    </body>
 </html>
