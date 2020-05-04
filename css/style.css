@@ -64,8 +64,9 @@ blockquote {
 /* Action button on the index page
 ----------------------------------- */
 a.action {
-  color: white;
-  background-color: #0A973D;
+  color: black;
+  background-color: #A2F4E4;
+  border: 2px black;
 }
 
 
