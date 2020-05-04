@@ -58,8 +58,14 @@ blockquote {
 
 /* Form styles
 -------------- */
-
-
+.form-error {
+  display: none;
+  color: red;
+  font-size: 14px;
+}
+#submitMessage {
+  display: none;
+}
 
 /* Action button on the index page
 ----------------------------------- */
