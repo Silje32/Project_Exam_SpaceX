@@ -90,9 +90,20 @@ a.action {
 
 
 /* Mars Exploration Rovers Mission */
-
+.opportunity´s_tracks {
+  width: 30%;
+}
+.opportunity´s_shadow {
+  width: 30%;
+}
 
 /* Mars Science Laboratory Mission */
+.launching_curiosity {
+  width: 30%;
+}
+.launching_spacecraft {
+  width: 30%;
+}
 
 
 
