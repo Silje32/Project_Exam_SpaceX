@@ -57,7 +57,9 @@ blockquote {
 
 /*  Nav -bar
 -------------*/
-
+.navigation {
+  color: #7F7967;
+}
 
 
 
@@ -84,6 +86,14 @@ a.action {
 
 /*  Images
 ------------*/
+/* Mars Pathfinder Mission */
+
+
+/* Mars Exploration Rovers Mission */
+
+
+/* Mars Science Laboratory Mission */
+
 
 
 /* Media Queries
