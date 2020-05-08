@@ -93,17 +93,30 @@ a.action {
 .opportunity´s_tracks {
   width: 30%;
 }
+.exploration_image_1 {
+  color: white;
+}
 .opportunity´s_shadow {
   width: 30%;
+}
+.exploration_image_2 {
+  color: white;
 }
 
 /* Mars Science Laboratory Mission */
 .launching_curiosity {
   width: 30%;
 }
+.science_image_1 {
+  color: white;
+}
 .launching_spacecraft {
   width: 30%;
 }
+.science_image_2 {
+  color: white;
+}
+
 
 
 
