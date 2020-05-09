@@ -62,7 +62,7 @@ blockquote {
   padding: 14px 16px;
   float: left;
   margin-left: 8%;
-  background-color: white;
+  background: white;
 }
 
 
@@ -103,6 +103,9 @@ a.action {
   width: 30%;
 }
 .perseverance {
+  width: 30%;
+}
+.artemis {
   width: 30%;
 }
 
