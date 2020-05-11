@@ -47,6 +47,12 @@ blockquote {
   font-family: 'Georgia', 'serif';
   width: 40%;
 }
+.container_1 {
+  display: flex;
+}
+.container_2 {
+  display: flex;
+}
 
 /* Header and Footer
 -------------------*/
