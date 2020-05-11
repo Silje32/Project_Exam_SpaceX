@@ -226,8 +226,10 @@ a.action {
 
 /*mobile styles*/
 @media only screen and (max-width: 480px) {
-
+.container_1, .container_2 {
+    flex-direction: column;
 }
+
 }
 
 
