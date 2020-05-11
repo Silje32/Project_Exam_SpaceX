@@ -36,10 +36,10 @@ h2 {
   font-family: 'Verdana', 'sans-serif';
 }
 h3 {
-  color: white;
+  color: black;
 }
 p {
-  color: white;
+  color: black;
 }
 blockquote {
   color : white;
@@ -53,6 +53,27 @@ blockquote {
 .container_2 {
   display: flex;
 }
+.col-1 {
+  display: 1;
+  background: white;
+}
+.col-2 {
+  display: 1;
+  background: white;
+}
+.col-3 {
+  display: 1;
+  background: white;
+}
+.col-4 {
+  display: 1;
+  background: white;
+}
+.col-5 {
+  display: 1;
+  background: white;
+}
+
 
 /* Header and Footer
 -------------------*/
