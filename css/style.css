@@ -25,6 +25,51 @@ html, body {
   background-color: black;
 }
 
+/* Heading
+-------------------*/
+.main-heading {
+  color: #E36822;
+  text-align: center;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  font-size: 55px;
+}
+.rovers {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  background: black;
+  font-family: 'nasalization', 'Arial' 'sans-serif';
+}
+.sojourner-heading {
+  color: #E36822;
+  text-align: center;
+  font-family: 'nasalization', 'Arial' 'sans-serif';
+  font-size: 30px;
+}
+.opportunity-heading {
+  color: #E36822;
+  text-align: center;
+  font-family: 'nasalization', 'Arial' 'sans-serif';
+  font-size: 30px;
+}
+.curiosity-heading {
+  color: #E36822;
+  text-align: center;
+  font-family: 'nasalization', 'Arial' 'sans-serif';
+  font-size: 30px;
+}
+.perseverance-heading {
+  color: #E36822;
+  text-align: center;
+  font-family: 'nasalization', 'Arial' 'sans-serif';
+  font-size: 30px;
+}
+.new {
+  font-family: 'Arial', 'sans-serif';
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
 h1 {
   color: #E36822;
   text-align: center;
