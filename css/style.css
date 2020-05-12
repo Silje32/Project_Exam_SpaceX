@@ -258,11 +258,15 @@ a.action {
 
 /*mobile styles*/
 @media only screen and (max-width: 480px) {
-.container_1, .container_2 {
+.container_1, .container_2, .container_1_launches, .container_2_launches,
+.container_3_launches  {
     flex-direction: column;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5 {
   background: white;
+}
+.col-1_launches, .col-2_launches {
+  background: black;
 }
 .col-1 {
   order: 4;
