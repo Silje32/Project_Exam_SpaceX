@@ -70,6 +70,27 @@ html, body {
   color: black;
   text-align: center;
 }
+.countdown {
+  color: white;
+  text-align: center;
+  font-family: 'Arial', 'sans-serif';
+}
+.mission, .artemis {
+  text-align: center;
+  color: black;
+}
+.artemis-heading {
+  font-size: 25px;
+  color: black;
+  font-family: 'Arial', 'sans-serif';
+  text-align: center;
+}
+.video-heading {
+  color: #E36822;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'nasalization', 'Arial' 'sans-serif';
+}
 h1 {
   color: #E36822;
   text-align: center;
@@ -78,7 +99,7 @@ h1 {
 }
 h2 {
   color: #7F7967;
-  font-family: 'Verdana', 'sans-serif';
+  font-family: 'Arial', 'sans-serif';
 }
 h3 {
   color: black;
@@ -154,7 +175,11 @@ blockquote {
 
 /* Header and Footer
 -------------------*/
-
+footer a {
+  color: white;
+  text-decoration: none;
+  float: right;
+}
 
 
 /*  Nav -bar
