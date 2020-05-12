@@ -100,6 +100,7 @@ blockquote {
 }
 .container_1_launches {
   display: flex;
+  width: 100%;
 }
 .container_2_launches {
   display: flex;
@@ -107,9 +108,12 @@ blockquote {
 .container_3_launches {
   display: flex;
 }
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
-.col-4_launches, .col-5_launches {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches {
   background: white;
+}
+.col-1_launches, .col-2_launches {
+  background: black;
+  border: 5px solid #E36822;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
 .col-4_launches, .col-5_launches {
