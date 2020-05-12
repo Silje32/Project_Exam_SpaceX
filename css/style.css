@@ -98,6 +98,15 @@ blockquote {
 .container_2 {
   display: flex;
 }
+.container_1_launches {
+  display: flex;
+}
+.container_2_launches {
+  display: flex;
+}
+.container_3_launches {
+  display: flex;
+}
 .col-1 {
   flex: 1;
   order: 1;
