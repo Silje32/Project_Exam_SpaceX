@@ -107,30 +107,44 @@ blockquote {
 .container_3_launches {
   display: flex;
 }
-.col-1 {
-  flex: 1;
-  order: 1;
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
+.col-4_launches, .col-5_launches {
   background: white;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
+.col-4_launches, .col-5_launches {
+  flex: 1;
+}
+.col-1  {
+  order: 1;
 }
 .col-2 {
-  flex: 1;
   order: 2;
-  background: white;
 }
 .col-3 {
-  flex: 1;
   order: 3;
-  background: white;
 }
 .col-4 {
-  flex: 1;
   order: 4;
-  background: white;
 }
 .col-5 {
-  flex: 1;
   order: 5;
-  background: white;
+}
+.col-1_launches  {
+  order: 1;
+}
+.col-2_launches {
+  order: 2;
+}
+.col-3_launches {
+  order: 3;
+}
+.col-4_launches {
+  order: 4;
+}
+.col-5_launches {
+  order: 5;
+  float: left;
 }
 
 
