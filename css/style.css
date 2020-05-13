@@ -91,6 +91,17 @@ html, body {
   font-size: 30px;
   font-family: 'nasalization', 'Arial' 'sans-serif';
 }
+.information {
+  color: white;
+  font-size: 25px;
+  font-family: 'Arial', 'sans-serif';
+  text-align: center;
+}
+.gateway-heading {
+  font-size: 30px;
+  font-family: 'Arial', 'sans-serif';
+  text-align: center;
+}
 h1 {
   color: #E36822;
   text-align: center;
@@ -179,12 +190,8 @@ blockquote {
   float: left;
 }
 .col-1_contact {
-  width: 50%;
-  order: 1;
 }
 .col-2_contact {
-  width: 50%;
-  order: 2;
 }
 
 
@@ -253,10 +260,9 @@ a.action {
   width: 30%;
 }
 .gateway {
-  width: 30%;
+  width: 40%;
 }
 .the_gateway {
-  color: white;
 }
 
 /* Mars Pathfinder Mission */
