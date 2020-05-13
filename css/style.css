@@ -207,7 +207,15 @@ footer a {
   text-decoration: none;
   float: right;
 }
-
+footer a:link{
+  color: white;
+}
+footer a:visited {
+  color: #E36822;
+}
+footer a:hover {
+  color: #7F7967;
+}
 
 /*  Nav -bar
 -------------*/
