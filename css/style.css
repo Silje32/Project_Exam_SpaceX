@@ -92,7 +92,7 @@ html, body {
   font-family: 'nasalization', 'Arial' 'sans-serif';
 }
 .information {
-  color: white;
+  color: black;
   font-size: 25px;
   font-family: 'Arial', 'sans-serif';
   text-align: center;
@@ -142,13 +142,15 @@ blockquote {
 }
 .container_1_contact {
   display: flex;
+  width: 40%;
+  background: white;
 }
 .container_2_contact {
   display: flex;
-  width: 50%;
+  width: 40%;
+  background: white;
 }
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches
-.col-1_contact, .col-2_contact  {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches  {
   background: white;
 }
 .col-1_launches, .col-2_launches {
@@ -191,8 +193,10 @@ blockquote {
   float: left;
 }
 .col-1_contact {
+  order: 1;
 }
 .col-2_contact {
+  order: 2;
 }
 
 
