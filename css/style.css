@@ -129,6 +129,12 @@ blockquote {
 .container_3_launches {
   display: flex;
 }
+.container_1_contact {
+  display: flex;
+}
+.container_2_contact {
+  display: flex;
+}
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches {
   background: white;
 }
