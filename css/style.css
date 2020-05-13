@@ -267,8 +267,7 @@ a.action {
 .gateway {
   width: 80%;
 }
-.the_gateway {
-}
+
 
 /* Mars Pathfinder Mission */
 
@@ -310,8 +309,18 @@ a.action {
 /*mobile styles*/
 @media only screen and (max-width: 480px) {
 .container_1, .container_2, .container_1_launches, .container_2_launches,
-.container_3_launches  {
+.container_3_launches, .container_1_contact, .container_2_contact  {
     flex-direction: column;
+}
+.container_1_contact, .container_2_contact {
+  width: 100%;
+  background: black;
+}
+.container_2_contact p {
+  color: white;
+}
+.container_2_contact figcaption {
+  color: white;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5 {
   background: white;
@@ -338,8 +347,20 @@ a.action {
   font-size: 30px;
   text-align: left;
 }
+.information {
+  color: white;
+}
+.gateway-heading {
+  color: white;
+}
 .artemis {
   width: 95%;
+}
+.gateway {
+  width: 100%;
+}
+form {
+  text-align: center;
 }
 blockquote {
 
