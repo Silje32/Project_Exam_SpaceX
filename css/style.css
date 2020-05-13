@@ -145,6 +145,7 @@ blockquote {
 }
 .container_2_contact {
   display: flex;
+  width: 50%;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches
 .col-1_contact, .col-2_contact  {
@@ -260,7 +261,7 @@ a.action {
   width: 30%;
 }
 .gateway {
-  width: 40%;
+  width: 80%;
 }
 .the_gateway {
 }
