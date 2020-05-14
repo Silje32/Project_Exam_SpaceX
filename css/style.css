@@ -150,7 +150,14 @@ blockquote {
   width: 40%;
   background: white;
 }
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches  {
+.container_1_missions {
+  display: flex;
+}
+.container_2_missions {
+  display: flex;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches,
+.col-1_missions, .col-2_missions  {
   background: white;
 }
 .col-1_launches, .col-2_launches {
@@ -196,6 +203,12 @@ blockquote {
   order: 1;
 }
 .col-2_contact {
+  order: 2;
+}
+.col-1_missions {
+  order: 1;
+}
+.col-2_missions {
   order: 2;
 }
 
