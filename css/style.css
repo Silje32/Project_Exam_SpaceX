@@ -360,7 +360,7 @@ a.action {
 }
 .col-1, .col-2, .col-3, .col-4, .col-5 {
 }
-.col-1_launches, .col-2_launches, col-1_missions, col-2_missions, col-1_exploration,
+.col-1_launches, .col-2_launches, .col-1_missions, .col-2_missions, .col-1_exploration,
 .col-2_exploration, .col-1_laboratory, .col-2_laboratory, .col-1_2020,
 .col-2_2020, .footer {
   background: black;
@@ -401,6 +401,12 @@ form {
 }
 button {
   width: 40%;
+}
+.search {
+  visibility: hidden;
+}
+.navigation a {
+  visibility: hidden;
 }
 blockquote {
 
