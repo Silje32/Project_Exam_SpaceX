@@ -164,15 +164,20 @@ blockquote {
 }
 .container_1_missions {
   display: flex;
+  width: 100%;
+  background-image: url("image/Twin-peaks.jpg");
 }
 .container_2_missions {
   display: flex;
+  background-image: url("image/east-rim-of-endeavour-crater.jpg");
 }
 .container_3_missions {
   display: flex;
+  background-image: url("image/mount-sharp_galeCrater.jpg");
 }
 .container_4_missions {
   display: flex;
+  background-image: url("image/Mars-2020-mission.jpg");
 }
 .container_5_missions {
   display: flex;
@@ -392,10 +397,19 @@ a.action {
 .col-5 {
   order: 1;
 }
+.col-1_mission {
+  order: 1;
+}
+.col-2_mission {
+  order: 2;
+}
 .main-heading a {
   font-size: 28px;
   text-align: left;
   text-decoration: none;
+}
+.main-heading {
+  background: black;
 }
 .information {
   color: white;
