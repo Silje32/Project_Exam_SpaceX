@@ -340,12 +340,17 @@ a.action {
 /*mobile styles*/
 @media only screen and (max-width: 480px) {
 .container_1, .container_2, .container_1_launches, .container_2_launches,
-.container_3_launches, .container_1_contact, .container_2_contact  {
-    flex-direction: column;
+.container_3_launches, .container_1_contact, .container_2_contact, .container_1_missions,
+.container_2_missions, .container_3_missions, .container_4_missions, .container_5_missions  {
+  flex-direction: column;
 }
-.container_1_contact, .container_2_contact {
+.container_1_contact, .container_2_contact,  {
   width: 100%;
   background: black;
+}
+.container_1_missions, {
+  background: black;
+  width: 50%;
 }
 .container_2_contact p {
   color: white;
@@ -354,9 +359,10 @@ a.action {
   color: white;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5 {
-  background: white;
 }
-.col-1_launches, .col-2_launches {
+.col-1_launches, .col-2_launches, col-1_missions, col-2_missions, col-1_exploration,
+.col-2_exploration, .col-1_laboratory, .col-2_laboratory, .col-1_2020,
+.col-2_2020, .footer {
   background: black;
 }
 .col-1 {
