@@ -392,9 +392,10 @@ a.action {
 .col-5 {
   order: 1;
 }
-.main-heading {
-  font-size: 30px;
+.main-heading a {
+  font-size: 28px;
   text-align: left;
+  text-decoration: none;
 }
 .information {
   color: white;
@@ -419,6 +420,9 @@ button {
 }
 .navigation a {
   visibility: hidden;
+}
+p {
+  color: white;
 }
 blockquote {
 
