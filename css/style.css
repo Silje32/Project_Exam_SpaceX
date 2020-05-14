@@ -22,7 +22,7 @@
 }
 
 html, body {
-  background-color: black;
+  background: white;
 }
 
 /* Heading
@@ -156,8 +156,7 @@ blockquote {
 .container_2_missions {
   display: flex;
 }
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches,
-.col-1_missions, .col-2_missions  {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches,  {
   background: white;
 }
 .col-1_launches, .col-2_launches {
@@ -205,12 +204,6 @@ blockquote {
 .col-2_contact {
   order: 2;
 }
-.col-1_missions {
-  order: 1;
-}
-.col-2_missions {
-  order: 2;
-}
 
 
 /* Header and Footer
@@ -239,7 +232,6 @@ footer a:hover {
   padding: 14px 16px;
   float: left;
   margin-left: 8%;
-  background: white;
 }
 
 
@@ -324,7 +316,6 @@ a.action {
 .science_image_2 {
   color: white;
 }
-
 
 
 
