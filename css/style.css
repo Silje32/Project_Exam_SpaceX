@@ -33,6 +33,15 @@ html, body {
   font-family: 'nasalization', 'Arial', 'sans-serif';
   font-size: 55px;
 }
+.main-heading a:link{
+  color: white;
+}
+.main-heading a:visited {
+  color: #E36822;
+}
+.main-heading a:hover {
+  color: #7F7967;
+}
 .rovers {
   color: white;
   font-size: 40px;
@@ -123,6 +132,9 @@ blockquote {
   background-color: black;
   font-family: 'Georgia', 'serif';
   width: 40%;
+}
+.search {
+  float: right;
 }
 .container_1 {
   display: flex;
