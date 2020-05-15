@@ -237,6 +237,9 @@ blockquote {
 
 /* Header and Footer
 -------------------*/
+header {
+  background: black;
+}
 footer a {
   color: white;
   text-decoration: none;
