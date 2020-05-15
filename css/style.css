@@ -179,9 +179,18 @@ blockquote {
   display: flex;
   background-image: url("image/Mars-2020-mission.jpg");
 }
-.container_5_missions {
+.container_5_footer {
   display: flex;
   background: black;
+}
+.container_1_pictures {
+  display: flex;
+}
+.container_2_pictures {
+  display: flex;
+}
+.container_3_pictures {
+  display: flex;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches,  {
   background: white;
@@ -193,7 +202,7 @@ blockquote {
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
 .col-4_launches, .col-5_launches, .col-1_contact, .col-2_contact, .col-1_missions,
 .col-2_missions, col-1_exploration, col-2_exploration, .col-1_laboratory, .col-2_laboratory
-.col-1_2020, .col-2_2020, .footer {
+.col-1_2020, .col-2_2020, .col-1_pictures, .footer {
   flex: 1;
 }
 .col-1  {
