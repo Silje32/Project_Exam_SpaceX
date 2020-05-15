@@ -254,7 +254,8 @@ header {
   background: black;
 }
 .menu {
-  width: 30%;
+  width: 20%;
+  color: white;
 }
 footer a {
   color: white;
