@@ -120,11 +120,11 @@ html, body {
 p {
   color: black;
 }
-blockquote {
+.blockquote {
   color : white;
   background-color: black;
   font-family: 'Georgia', 'serif';
-  width: 40%;
+  width: 72%;
 }
 .search {
   float: right;
@@ -221,7 +221,6 @@ blockquote {
 }
 .col-5 {
   order: 5;
-  width: 30%;
 }
 .col-1_launches  {
   order: 1;
@@ -385,6 +384,9 @@ figcaption {
 .container_2_missions, .container_3_missions, .container_4_missions, .container_5_missions  {
   flex-direction: column;
 }
+.container_rovers {
+  visibility: hidden;
+}
 .container_1_contact, .container_2_contact,  {
   width: 100%;
   background: black;
@@ -399,27 +401,26 @@ figcaption {
 .container_2_contact figcaption {
   color: white;
 }
-.col-1, .col-2, .col-3, .col-4, .col-5 {
-}
-.col-1_launches, .col-2_launches, .col-1_missions, .col-2_missions, .col-1_exploration,
-.col-2_exploration, .col-1_laboratory, .col-2_laboratory, .col-1_2020,
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches,
+.col-1_missions, .col-2_missions, .col-1_exploration,.col-2_exploration,
+.col-1_laboratory, .col-2_laboratory, .col-1_2020,
 .col-2_2020, .footer {
   background: black;
 }
 .col-1 {
-  order: 4;
+  order: 1;
 }
 .col-2 {
-  order: 4;
+  order: 2;
 }
 .col-3 {
   order: 3;
 }
 .col-4 {
-  order: 2;
+  order: 4;
 }
 .col-5 {
-  order: 1;
+  order: 5;
 }
 .col-1_mission {
   order: 1;
@@ -436,6 +437,9 @@ figcaption {
   background: black;
 }
 .information {
+  color: white;
+}
+.new {
   color: white;
 }
 .gateway-heading {
@@ -462,8 +466,14 @@ button {
 p {
   color: white;
 }
-blockquote {
-
+body {
+  background: white;
+}
+figcaption {
+  color: white;
+}
+.blockquote {
+  visibility: hidden;
 }
 }
 
