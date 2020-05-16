@@ -42,7 +42,7 @@ html, body {
 .main-heading a:hover {
   color: #7F7967;
 }
-.rovers {
+.rovers-heading {
   color: white;
   font-size: 40px;
   text-align: center;
@@ -117,14 +117,6 @@ html, body {
   text-align: center;
   font-family: 'nasalization', 'Arial' 'sans-serif';
 }
-
-h2 {
-  color: #7F7967;
-  font-family: 'Arial', 'sans-serif';
-}
-h3 {
-  color: black;
-}
 p {
   color: black;
 }
@@ -136,6 +128,10 @@ blockquote {
 }
 .search {
   float: right;
+}
+.container_rovers {
+  display: flex;
+  width: 100%;
 }
 .container_1 {
   display: flex;
@@ -203,7 +199,7 @@ blockquote {
   background: black;
   border: 5px solid #E36822;
 }
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
+.col-1_rovers, .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
 .col-4_launches, .col-5_launches, .col-1_contact, .col-2_contact, .col-1_missions,
 .col-2_missions, col-1_exploration, col-2_exploration, .col-1_laboratory, .col-2_laboratory
 .col-1_2020, .col-2_2020, .col-1_pictures, .footer {
