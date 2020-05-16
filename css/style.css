@@ -53,25 +53,25 @@ html, body {
   color: #E36822;
   text-align: center;
   font-family: 'nasalization', 'Arial' 'sans-serif';
-  font-size: 30px;
+  font-size: 35px;
 }
 .opportunity-heading {
   color: #E36822;
   text-align: center;
   font-family: 'nasalization', 'Arial' 'sans-serif';
-  font-size: 30px;
+  font-size: 35px;
 }
 .curiosity-heading {
   color: #E36822;
   text-align: center;
   font-family: 'nasalization', 'Arial' 'sans-serif';
-  font-size: 30px;
+  font-size: 35px;
 }
 .perseverance-heading {
   color: #E36822;
   text-align: center;
   font-family: 'nasalization', 'Arial' 'sans-serif';
-  font-size: 30px;
+  font-size: 35px;
 }
 .new {
   font-family: 'Arial', 'sans-serif';
@@ -193,7 +193,7 @@ blockquote {
   width: 100%;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches,  {
-  background: white;
+  border: 5px black;
 }
 .col-1_launches, .col-2_launches {
   background: black;
@@ -207,9 +207,11 @@ blockquote {
 }
 .col-1  {
   order: 1;
+  border: 5px black;
 }
 .col-2 {
   order: 2;
+  border: 5px black;
 }
 .col-3 {
   order: 3;
@@ -219,6 +221,7 @@ blockquote {
 }
 .col-5 {
   order: 5;
+  width: 30%;
 }
 .col-1_launches  {
   order: 1;
@@ -313,19 +316,21 @@ a.action {
 /*  Images
 ------------*/
 .sojourner {
-  width: 30%;
+  width: 80%;
 }
 .opportunity {
-  width: 30%;
+  width: 45%;
+  float: left;
 }
 .spirit {
-  width: 30%;
+  width: 45%;
+  float: left;
 }
 .curiosity {
-  width: 30%;
+  width: 80%;
 }
 .perseverance {
-  width: 30%;
+  width: 80%;
 }
 .artemis {
   width: 30%;
