@@ -47,30 +47,30 @@ html, body {
   font-size: 40px;
   text-align: center;
   background: black;
-  font-family: 'nasalization', 'Arial' 'sans-serif';
+  font-family: 'nasalization', 'Arial', 'sans-serif';
 }
 .sojourner-heading {
   color: #E36822;
   text-align: center;
-  font-family: 'nasalization', 'Arial' 'sans-serif';
+  font-family: 'nasalization', 'Arial', 'sans-serif';
   font-size: 35px;
 }
 .opportunity-heading {
   color: #E36822;
   text-align: center;
-  font-family: 'nasalization', 'Arial' 'sans-serif';
+  font-family: 'nasalization', 'Arial', 'sans-serif';
   font-size: 35px;
 }
 .curiosity-heading {
   color: #E36822;
   text-align: center;
-  font-family: 'nasalization', 'Arial' 'sans-serif';
+  font-family: 'nasalization', 'Arial', 'sans-serif';
   font-size: 35px;
 }
 .perseverance-heading {
   color: #E36822;
   text-align: center;
-  font-family: 'nasalization', 'Arial' 'sans-serif';
+  font-family: 'nasalization', 'Arial', 'sans-serif';
   font-size: 35px;
 }
 .new {
@@ -98,7 +98,7 @@ html, body {
   color: #E36822;
   text-align: center;
   font-size: 30px;
-  font-family: 'nasalization', 'Arial' 'sans-serif';
+  font-family: 'nasalization', 'Arial', 'sans-serif';
 }
 .information {
   color: black;
@@ -115,7 +115,7 @@ html, body {
   color: #E36822;
   font-size: 40px;
   text-align: center;
-  font-family: 'nasalization', 'Arial' 'sans-serif';
+  font-family: 'nasalization', 'Arial', 'sans-serif';
 }
 p {
   color: black;
