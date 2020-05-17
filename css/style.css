@@ -570,8 +570,93 @@ figcaption {
 
 /*tablet styles*/
 @media only screen and (max-width: 768px) {
-
+.container_1, .container_2, .container_1_launches, .container_2_launches,
+.container_3_launches, .container_1_contact, .container_2_contact, .container_1_missions,
+.container_2_missions, .container_3_missions, .container_4_missions, .container_5_missions  {
+    flex-direction: column;
 }
+
+/*  Video
+------------*/
+.video-container_1, .video-container_2, .video-container_3, .video-container_4,
+.video-container_5, .video-container_6, .video-container_7  {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container_1 iframe,
+.video-container_1 object,
+.video-container_1 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-container_2 iframe,
+.video-container_2 object,
+.video-container_2 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-container_3 iframe,
+.video-container_3 object,
+.video-container_3 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-container_4 iframe,
+.video-container_4 object,
+.video-container_4 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-container_5 iframe,
+.video-container_5 object,
+.video-container_5 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-container_6 iframe,
+.video-container_6 object,
+.video-container_6 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-container_7 iframe,
+.video-container_7 object,
+.video-container_7 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-wrapper {
+  width: 640px;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
 }
 
 
