@@ -486,16 +486,16 @@ figcaption {
   width: 50%;
 }
 .container_2_contact p {
-  color: white;
+  color: black;
 }
 .container_2_contact figcaption {
-  color: white;
+  color: black;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches,
 .col-1_missions, .col-2_missions, .col-1_exploration,.col-2_exploration,
 .col-1_laboratory, .col-2_laboratory, .col-1_2020,
 .col-2_2020, .footer {
-  background: black;
+  background: white;
 }
 .col-1 {
   order: 1;
@@ -527,13 +527,13 @@ figcaption {
   background: black;
 }
 .information {
-  color: white;
+  color: black;
 }
 .new {
-  color: white;
+  color: black;
 }
 .gateway-heading {
-  color: white;
+  color: black;
 }
 .artemis {
   width: 95%;
@@ -554,16 +554,34 @@ button {
   visibility: hidden;
 }
 p {
-  color: white;
+  color: black;
 }
 body {
-  background: white;
+  background: black;
 }
 figcaption {
-  color: white;
+  color: black;
 }
 .blockquote {
   visibility: hidden;
+}
+
+/*  Images
+------------*/
+.sojourner {
+  width: 100%;
+}
+.opportunity {
+  width: 100%;
+}
+.spirit {
+  width: 100%;
+}
+.curiosity {
+  width: 100%;
+}
+.perseverance {
+  width: 100%;
 }
 }
 
