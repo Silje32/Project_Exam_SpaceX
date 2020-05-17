@@ -277,14 +277,21 @@ footer a:hover {
 /*  Nav -bar
 -------------*/
 .navigation a {
-  color: #7F7967;
   text-decoration: none;
   font-size: 35px;
   padding: 14px 16px;
   float: left;
   margin-left: 8%;
 }
-
+.navigation a:link{
+  color: #7F7967;
+}
+.navigation a:visited {
+  color: black;
+}
+.navigation a:hover {
+  color: #E36822;
+}
 
 
 /* Form styles
