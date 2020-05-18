@@ -276,20 +276,20 @@ footer a:hover {
 
 /*  Nav -bar
 -------------*/
-.navigation a {
+nav a {
   text-decoration: none;
   font-size: 35px;
   padding: 14px 16px;
   float: left;
   margin-left: 8%;
 }
-.navigation a:link{
+nav a:link{
   color: #7F7967;
 }
-.navigation a:visited {
+nav a:visited {
   color: black;
 }
-.navigation a:hover {
+nav a:hover {
   color: #E36822;
 }
 
@@ -457,8 +457,8 @@ figcaption {
 }
 .video-wrapper {
   width: 640px;
-  float: none;
-  margin-left: auto;
+  float: left;
+  margin-left: 10px;
   margin-right: auto;
   max-width: 100%;
 }
