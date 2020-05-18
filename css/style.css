@@ -348,7 +348,9 @@ figcaption {
 }
 
 /* Mars Pathfinder Mission */
-
+article {
+  background-image: url("image/Twin-peaks.jpg");
+}
 
 /* Mars Exploration Rovers Mission */
 .opportunity´s_tracks {
