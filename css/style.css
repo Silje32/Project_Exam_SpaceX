@@ -151,13 +151,7 @@ p {
 }
 .container_1_contact {
   display: flex;
-  width: 40%;
-  background: white;
-}
-.container_2_contact {
-  display: flex;
-  width: 40%;
-  background: white;
+  width: 100%;
 }
 .container_1_missions {
   display: flex;
@@ -192,12 +186,16 @@ p {
   display: flex;
   width: 100%;
 }
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches,  {
-  border: 5px black;
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches,
+.col-1_contact, .col-2_contact, .col-1_pictures  {
+  border: 5px solid black;
 }
-.col-1_launches, .col-2_launches {
+.col-1_launches, .col-2_launches  {
   background: black;
   border: 5px solid #E36822;
+}
+.col-1_contact, .col-2_contact {
+  background: white;
 }
 .col-1_rovers, .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
 .col-4_launches, .col-5_launches, .col-1_contact, .col-2_contact, .col-1_missions,
@@ -207,11 +205,9 @@ p {
 }
 .col-1  {
   order: 1;
-  border: 5px black;
 }
 .col-2 {
   order: 2;
-  border: 5px black;
 }
 .col-3 {
   order: 3;
@@ -284,10 +280,10 @@ nav a {
   margin-left: 8%;
 }
 nav a:link{
-  color: #7F7967;
+  color: black;
 }
 nav a:visited {
-  color: black;
+  color: #7F7967 ;
 }
 nav a:hover {
   color: #E36822;
@@ -589,7 +585,7 @@ figcaption {
 /*tablet styles*/
 @media only screen and (max-width: 768px) {
 .container_1, .container_2, .container_1_launches, .container_2_launches,
-.container_3_launches, .container_1_contact, .container_2_contact, .container_1_missions,
+.container_3_launches, .container_1_contact, .container_1_missions,
 .container_2_missions, .container_3_missions, .container_4_missions, .container_5_missions  {
     flex-direction: column;
 }
