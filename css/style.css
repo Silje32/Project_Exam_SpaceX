@@ -38,7 +38,7 @@ html, body {
   font-family: 'nasalization', 'Arial', 'sans-serif';
   font-size: 50px;
 }
-.main-heading a:link{
+.main-heading a:link {
   color: white;
 }
 .main-heading a:visited {
@@ -254,7 +254,7 @@ header {
   height: 160px;
 }
 .menu {
-  visibility: hidden;
+  display: none;
 }
 footer a {
   color: white;
@@ -279,7 +279,6 @@ footer a:hover {
 nav ul {
 }
 nav li {
-  display: inline;
 }
 nav li a {
   text-decoration: none;
@@ -288,11 +287,11 @@ nav li a {
   padding: 14px 16px;
   margin-left: 7%;
 }
-nav li a:link{
+nav li a:link {
   color: black;
 }
 nav li a:visited {
-  color: #7F7967 ;
+  color: #7F7967;
 }
 nav li a:hover {
   color: #E36822;
@@ -561,7 +560,7 @@ button {
   visibility: hidden;
 }
 nav li a {
-  visibility: hidden;
+  display: none;
 }
 p {
   color: black;
@@ -699,14 +698,13 @@ nav li a {
   font-size: 30px;
 }
 .menu {
-  visibility: hidden;
+  display: none;
 }
 .artemis {
   width: 95%;
 }
 .main-heading {
   font-size: 35px;
-  visibility: visible;
 }
 }
 
