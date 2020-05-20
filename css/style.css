@@ -34,9 +34,9 @@ html, body {
 -------------------*/
 .main-heading {
   color: #E36822;
-  text-align: center;
+  text-align: left;
   font-family: 'nasalization', 'Arial', 'sans-serif';
-  font-size: 50px;
+  font-size: 65px;
 }
 .main-heading a:link {
   color: white;
@@ -276,15 +276,14 @@ footer a:hover {
 
 /*  Nav -bar
 -------------*/
-nav ul {
-}
 nav li {
+  display: inline;
 }
 nav li a {
   text-decoration: none;
   font-size: 35px;
   float: left;
-  padding: 14px 16px;
+  padding: 14px;
   margin-left: 7%;
 }
 nav li a:link {
@@ -483,6 +482,9 @@ article {
 body {
   width: 400px;
 }
+header {
+  height: 60px;
+}
 .container_rovers {
   visibility: hidden;
 }
@@ -527,13 +529,8 @@ body {
 .col-2_mission {
   order: 2;
 }
-.main-heading a {
-  font-size: 28px;
-  text-align: left;
-  text-decoration: none;
-}
 .main-heading {
-  background: black;
+    font-size: 30px;
 }
 .information {
   color: black;
@@ -559,24 +556,24 @@ button {
 .search {
   visibility: hidden;
 }
+nav {
+  display: none;
+}
 nav li a {
   display: none;
 }
 p {
   color: black;
 }
-body {
-  background: black;
-}
 figcaption {
   color: black;
 }
 .blockquote {
-  visibility: hidden;
+  display: none;
 }
 .menu {
   visibility: visible;
-  width: 15%;
+  width: 10%;
   color: white;
   float: right;
 }
@@ -693,9 +690,9 @@ body {
   max-width: 100%;
 }
 nav li a {
-  padding: 0px 5px;
-  margin: 5px auto;
   font-size: 30px;
+  padding: 12px;
+  margin-left: 1%;
 }
 .menu {
   display: none;
@@ -704,7 +701,10 @@ nav li a {
   width: 95%;
 }
 .main-heading {
-  font-size: 35px;
+  font-size: 60px;
+}
+header {
+  height: 120px;
 }
 }
 
@@ -715,6 +715,19 @@ body {
   max-width: 100%;
 }
 .menu {
-  visibility: hidden;
+  display: none;
+}
+nav li a {
+  font-size: 35px;
+  padding: 14px;
+  margin-left: 7%;
+  display: inline;
+}
+header {
+  height: 150px;
+}
+.main-heading {
+  font-size: 65px;
+  text-align: left;
 }
 }
