@@ -111,6 +111,11 @@ html, body {
   font-size: 25px;
   font-family: 'Arial', 'sans-serif';
   text-align: center;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+.select-heading {
+  font-size: 20px;
 }
 .gateway-heading {
   font-size: 30px;
@@ -167,6 +172,7 @@ p {
 }
 .container_2_missions {
   display: flex;
+  background-image: url("images/east-rim-of-endeavour-crater.jpg");
 }
 .container_3_missions {
   display: flex;
@@ -190,8 +196,8 @@ p {
   display: flex;
   width: 100%;
 }
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,.col-4_launches, .col-5_launches,
-.col-1_contact, .col-2_contact, .col-1_pictures  {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches, .col-4_launches, .col-5_launches,
+.col-1_pictures  {
   border: 5px solid black;
 }
 .col-1_launches, .col-2_launches  {
@@ -203,14 +209,14 @@ p {
 }
 .col-1_rovers, .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
 .col-4_launches, .col-5_launches, .col-1_contact, .col-2_contact, .col-1_missions,
-.col-2_missions, col-1_exploration, col-2_exploration, .col-1_laboratory, .col-2_laboratory,
+.col-1_exploration, .col-2_exploration, .col-1_laboratory, .col-2_laboratory,
 .col-1_2020, .col-2_2020, .col-1_pictures, .footer {
   flex: 1;
 }
 .col-1_rovers, .col-1, .col-2, .col-3, .col-4, .col-1_launches, .col-2_launches, .col-3_launches,
-.col-4_launches, .col-5_launches, .col-1_contact, .col-2_contact, .col-1_missions,
-.col-2_missions, col-1_exploration, col-2_exploration, .col-1_laboratory, .col-2_laboratory,
-.col-1_2020, .col-2_2020, .col-1_pictures, .footer {
+.col-4_launches, .col-5_launches, .col-1_missions, .col-1_exploration,
+.col-2_exploration, .col-1_laboratory, .col-2_laboratory, .col-1_2020,
+.col-2_2020, .col-1_pictures, .footer {
   padding: 5px;
 }
 .col-1  {
@@ -247,21 +253,45 @@ p {
 }
 .col-1_contact {
   order: 1;
+  padding: 10px;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
 }
 .col-2_contact {
   order: 2;
+  padding: 10px;
+  border-top: 2px solid black;
 }
+
+
+
+/* help  */
 .col-1_missions {
-  background-image: url("image/Twin-peaks.jpg");
+  background:linear-gradient(rgba(255,255,255,0),
+  rgba(255,255,255,0)),
+  url('images/Twin-peaks.jpg');
+  background-attachment: static;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+.col-1_missions p{
+  background-color: rgba(255,255,255,0.7);
+  box-shadow: 1px 1px 3px white;
+  padding: 2px;
+}
+/* help end  */
+
+
+
 .col-1_exploration {
-  background-image: url("image/east-rim-of-endeavour-crater.jpg");
+  background-image: url("images/east-rim-of-endeavour-crater.jpg");
 }
 .col-1_laboratory h2 {
-  background-image: url("image/mount-sharp_galeCrater.jpg");
+  background-image: url("images/mount-sharp_galeCrater.jpg");
 }
 .col-1_2020 {
-  background-image: url("image/Mars-2020-mission.jpg");
+  background-image: url("images/Mars-2020-mission.jpg");
 }
 
 /* Header and Footer
@@ -271,6 +301,9 @@ header {
   height: 160px;
 }
 .menu {
+  display: none;
+}
+.nav-menu {
   display: none;
 }
 footer a {
@@ -327,6 +360,34 @@ nav li a:hover {
 button {
   background: #A2F4E4;
   color: black;
+  width: 20%;
+  padding: 5px;
+  float: right;
+  border: 2px solid black;
+}
+form div {
+  margin: 10px 10px;
+  padding-bottom: 20px;
+}
+textarea {
+  width: 90%;
+  height: 100px;
+  border: 2px solid #7F7967;
+}
+input {
+  border: 2px solid #7F7967;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+}
+input[type="text"]:focus,
+input[type="text"]:hover {
+  background-color: #A2F4E4;
+  border: 1px solid #A2F4E4;
+}
+.select {
+  margin-left: 90px;
 }
 
 
@@ -378,23 +439,21 @@ a.action-artemis {
   margin-left: 9px;
 }
 .perseverance {
-  width: 90%;
+  width: 95%;
 }
 .artemis {
   width: 60%;
   float: right;
 }
 .gateway {
-  width: 80%;
+  width: 100%;
 }
 figcaption {
   color: black;
 }
 
 /* Mars Pathfinder Mission */
-.col-1_missions {
-  background-image: url("../image/Twin-peaks.jpg");
-}
+
 
 /* Mars Exploration Rovers Mission */
 .opportunity´s_tracks {
@@ -412,7 +471,7 @@ figcaption {
 
 /* Mars Science Laboratory Mission */
 .background {
-  background-image: url("image/mount-sharp_galeCrater.jpg");
+  background-image: url("images/mount-sharp_galeCrater.jpg");
 }
 .launching_curiosity {
   width: 30%;
@@ -526,13 +585,13 @@ header {
   height: 60px;
 }
 .container_rovers {
-  visibility: hidden;
+  display: none;
 }
-.container_1_contact, .container_2_contact,  {
+.container_1_contact, .container_2_contact  {
   width: 100%;
   background: black;
 }
-.container_1_missions, {
+.container_1_missions {
   background: black;
   width: 50%;
 }
@@ -543,10 +602,11 @@ header {
   color: black;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches,
-.col-1_missions, .col-2_missions, .col-1_exploration,.col-2_exploration,
+.col-1_missions, .col-1_exploration, .col-2_exploration,
 .col-1_laboratory, .col-2_laboratory, .col-1_2020,
-.col-2_2020, .footer {
+.col-2_2020 {
   background: white;
+  padding: 10px;
 }
 .col-1 {
   order: 1;
@@ -566,11 +626,8 @@ header {
 .col-1_mission {
   order: 1;
 }
-.col-2_mission {
-  order: 2;
-}
 .main-heading {
-    font-size: 30px;
+  font-size: 30px;
 }
 .information {
   color: black;
@@ -590,11 +647,14 @@ header {
 form {
   text-align: center;
 }
+.select {
+  margin-left: 15px;
+}
 button {
   width: 40%;
 }
 .search {
-  visibility: hidden;
+  display: none;
 }
 nav {
   display: none;
@@ -612,16 +672,21 @@ figcaption {
   display: none;
 }
 .menu {
-  visibility: visible;
+  display: block;
   width: 10%;
   color: white;
   float: right;
+}
+.nav-menu {
+  display: inline-block;
+  width: 100%;
 }
 
 /*  Images
 ------------*/
 .sojourner {
-  width: 100%;
+  width: 97%;
+  margin-left: 5px;
 }
 .opportunity {
   width: 100%;
@@ -630,13 +695,12 @@ figcaption {
   width: 100%;
 }
 .curiosity {
-  width: 100%;
+  width: 95%;
 }
 .perseverance {
   width: 100%;
 }
 }
-
 
 /*tablet styles*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -743,6 +807,9 @@ nav li a {
 .menu {
   display: none;
 }
+.nav-menu {
+  display: none;
+}
 .artemis {
   width: 95%;
 }
@@ -764,6 +831,9 @@ body {
   max-width: 100%;
 }
 .menu {
+  display: none;
+}
+.nav-menu {
   display: none;
 }
 nav li a {

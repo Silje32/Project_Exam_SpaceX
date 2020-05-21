@@ -43,7 +43,7 @@
   <main>
      <div class="container_1_contact">
        <section class="col-1_contact">
-       <h3 class="information">Contact Information</h3>
+       <h3 class="information">CONTACT INFORMATION</h3>
      <div id="submitMessage"> Your form was submitted. </div>
 
      <form id="contactForm">
@@ -71,13 +71,14 @@
                  <textarea id="message">Enter your message...</textarea>
                  <div class="error" id="messageError">Your message must have at least 6 characters</div>
               </div>
-
-                  <h3>NASA or Japan´s space agency?</h3>
-                     <select>
-                         <option value="">NASA</option>
-                         <option value="">Japan´s space agency</option>
-                         <option value="">Other</option>
+            <div class="select">
+                  <h3 class="select-heading">Astronaut from NASA or Japan´s space agency :</h3>
+                     <select name="astronauts">
+                         <option value="nasa">NASA</option>
+                         <option value="japan´s space agency">Japan´s space agency</option>
+                         <option value="other">Other</option>
                      </select>
+            </div>
                         <button type="submit">SEND</button>
      </form>
    </section>
