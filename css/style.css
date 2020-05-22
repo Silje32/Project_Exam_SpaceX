@@ -93,12 +93,16 @@ html, body {
 .mission {
   text-align: center;
   color: black;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  font-size: 30px;
 }
 .artemis-heading {
   font-size: 25px;
   color: black;
   font-family: 'Arial', 'sans-serif';
   text-align: center;
+  margin-bottom: 30px;
 }
 .video-heading {
   color: #E36822;
@@ -158,6 +162,7 @@ p {
 }
 .container_2_launches {
   display: flex;
+  width: 100%;
 }
 .container_3_launches {
   display: flex;
@@ -169,6 +174,12 @@ p {
 .container_1_missions {
   display: flex;
   width: 100%;
+  background:linear-gradient(rgba(255,255,255,0),
+  rgba(255,255,255,0)),
+  url('images/Twin-peaks.jpg');
+  background-attachment: static;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container_2_missions {
   display: flex;
@@ -176,9 +187,11 @@ p {
 }
 .container_3_missions {
   display: flex;
+  background-image: url("images/mount-sharp_galeCrater.jpg");
 }
 .container_4_missions {
   display: flex;
+  background-image: url("images/Mars-2020-mission.jpg");
 }
 .container_5_footer {
   display: flex;
@@ -202,19 +215,20 @@ p {
 }
 .col-1_launches, .col-2_launches  {
   background: black;
-  border: 5px solid #E36822;
+  border-top: 5px solid #E36822;
+  border-bottom: 5px solid #E36822;
 }
 .col-1_contact, .col-2_contact {
   background: white;
 }
 .col-1_rovers, .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
-.col-4_launches, .col-5_launches, .col-1_contact, .col-2_contact, .col-1_missions,
+.col-4_launches, .col-5_launches, .col-1_contact, .col-2_contact, .col-1_missions, .col-2_missions,
 .col-1_exploration, .col-2_exploration, .col-1_laboratory, .col-2_laboratory,
 .col-1_2020, .col-2_2020, .col-1_pictures, .footer {
   flex: 1;
 }
-.col-1_rovers, .col-1, .col-2, .col-3, .col-4, .col-1_launches, .col-2_launches, .col-3_launches,
-.col-4_launches, .col-5_launches, .col-1_missions, .col-1_exploration,
+.col-1_rovers, .col-4, .col-1_launches, .col-2_launches,
+.col-4_launches, .col-5_launches, .col-1_missions, .col-2_missions, .col-1_exploration,
 .col-2_exploration, .col-1_laboratory, .col-2_laboratory, .col-1_2020,
 .col-2_2020, .col-1_pictures, .footer {
   padding: 5px;
@@ -222,11 +236,18 @@ p {
 .col-1  {
   order: 1;
 }
+.col-1 p {
+  max-width: 420px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
 .col-2 {
   order: 2;
+  padding: 10px;
 }
 .col-3 {
   order: 3;
+  padding: 10px;
 }
 .col-4 {
   order: 4;
@@ -243,9 +264,16 @@ p {
 }
 .col-3_launches {
   order: 3;
+  width: 20%;
 }
 .col-4_launches {
   order: 4;
+  padding: 30px;
+}
+.col-3_launches p {
+  max-width: 360px;
+  font-size: 18px;
+  margin-left: 120px;
 }
 .col-5_launches {
   order: 5;
@@ -265,7 +293,7 @@ p {
 
 
 
-/* help  */
+/* help
 .col-1_missions {
   background:linear-gradient(rgba(255,255,255,0),
   rgba(255,255,255,0)),
@@ -274,7 +302,8 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+*/
+/*
 .col-1_missions p{
   background-color: rgba(255,255,255,0.7);
   box-shadow: 1px 1px 3px white;
@@ -283,16 +312,6 @@ p {
 /* help end  */
 
 
-
-.col-1_exploration {
-  background-image: url("images/east-rim-of-endeavour-crater.jpg");
-}
-.col-1_laboratory h2 {
-  background-image: url("images/mount-sharp_galeCrater.jpg");
-}
-.col-1_2020 {
-  background-image: url("images/Mars-2020-mission.jpg");
-}
 
 /* Header and Footer
 -------------------*/
@@ -323,6 +342,10 @@ footer a:hover {
 .footer {
   background: black;
 }
+.container_5_footer {
+  width: 100%;
+}
+
 
 /*  Nav -bar
 -------------*/
@@ -417,6 +440,19 @@ a.action-artemis {
   margin-top: 30px;
   margin-left: 80px;
 }
+a.action-sojourner {
+  color: black;
+  background-color: #A2F4E4;
+  border: 2px solid black;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  width: 30%;
+  float: right;
+  padding: 5px;
+  margin-top: 90px;
+}
+
 
 /*  Images
 ------------*/
@@ -442,8 +478,10 @@ a.action-artemis {
   width: 95%;
 }
 .artemis {
-  width: 60%;
-  float: right;
+  width: 98%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 .gateway {
   width: 100%;
@@ -470,9 +508,6 @@ figcaption {
 }
 
 /* Mars Science Laboratory Mission */
-.background {
-  background-image: url("images/mount-sharp_galeCrater.jpg");
-}
 .launching_curiosity {
   width: 30%;
   float: left;
@@ -589,10 +624,8 @@ header {
 }
 .container_1_contact, .container_2_contact  {
   width: 100%;
-  background: black;
 }
 .container_1_missions {
-  background: black;
   width: 50%;
 }
 .container_2_contact p {
@@ -602,7 +635,7 @@ header {
   color: black;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches,
-.col-1_missions, .col-1_exploration, .col-2_exploration,
+.col-1_missions, .col-2_missions, .col-1_exploration, .col-2_exploration,
 .col-1_laboratory, .col-2_laboratory, .col-1_2020,
 .col-2_2020 {
   background: white;
@@ -626,7 +659,11 @@ header {
 .col-1_mission {
   order: 1;
 }
-.main-heading {
+.col-2_mission {
+  display: none;
+}
+.main-heading a:link {
+  text-decoration: none;
   font-size: 30px;
 }
 .information {
@@ -715,9 +752,18 @@ body {
   min-width: 500px;
   max-width: 768px;
 }
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches,
+.col-1_missions, .col-2_missions, .col-1_exploration, .col-2_exploration,
+.col-1_laboratory, .col-2_laboratory, .col-1_2020 {
+  padding: 10px;
+}
 .col-1_launches, .col-2_launches  {
   border-bottom-width: 5px solid #E36822;
 }
+.col-1_launches, .col-2_launches, .col-3_launches, .col-4_launches, .col-5_launches {
+  width: 95%;
+}
+
 
 /*  Video
 ------------*/
@@ -811,7 +857,12 @@ nav li a {
   display: none;
 }
 .artemis {
-  width: 95%;
+  width: 99%;
+  padding: 10px;
+  margin-top: 30px;
+}
+.artemis-heading {
+  margin-bottom: 40px;
 }
 .main-heading {
   font-size: 60px;
@@ -821,6 +872,43 @@ header {
 }
 .new {
   margin-top: 40px;
+  margin-bottom: 30px;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,
+.col-4_launches, .col-5_launches  {
+  padding: 30px;
+}
+a.action-artemis {
+  width: 50%;
+  float: left;
+  margin-top: 80px;
+  margin-left: 150px;
+  padding: 20px;
+}
+.col-1_launches {
+  margin-bottom: 10px;
+  padding: 20px;
+  border-left: none;
+  border-right: none;
+  border-color: #E36822;
+  width: 100%;
+}
+.col-2_launches {
+  padding: 20px;
+  border-left: none;
+  border-right: none;
+  border-color: #E36822;
+  width: 100%;
+}
+.col-3_launches p {
+  max-width: 400px;
+  margin-left: 200px;
+}
+.col-2_missions, .col-2_exploration, .col-2_laboratory, .col-2_2020 {
+  display: none;
+}
+.container_3_launches {
+  width: 100%;
 }
 }
 
@@ -848,5 +936,27 @@ header {
 .main-heading {
   font-size: 65px;
   text-align: left;
+}
+.container_1_missions {
+  display: flex;
+  width: 100%;
+  background:linear-gradient(rgba(255,255,255,0),
+  rgba(255,255,255,0)),
+  url('images/Twin-peaks.jpg');
+  background-attachment: static;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container_2_missions {
+  background-image: url("images/east-rim-of-endeavour-crater.jpg");
+  background-size: cover;
+}
+.container_3_missions {
+  background-image: url("images/mount-sharp_galeCrater.jpg");
+  background-size: cover;
+}
+.container_4_missions {
+  background-image: url("images/Mars-2020-mission.jpg");
+  background-size: cover;
 }
 }
