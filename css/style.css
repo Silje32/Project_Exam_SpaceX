@@ -126,6 +126,12 @@ html, body {
   font-family: 'Arial', 'sans-serif';
   text-align: center;
 }
+science-heading {
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  color: #E36822;
+  float: left;
+  font-size: 20px;
+}
 .pictures-heading {
   color: #E36822;
   font-size: 40px;
@@ -171,27 +177,32 @@ p {
   display: flex;
   width: 100%;
 }
-.container_1_missions {
+.container_1_missions section {
   display: flex;
   width: 100%;
-  background:linear-gradient(rgba(255,255,255,0),
-  rgba(255,255,255,0)),
-  url('images/Twin-peaks.jpg');
-  background-attachment: static;
+  background: url('../images/Twin-peaks.jpg') no-repeat;
   background-size: cover;
-  background-repeat: no-repeat;
+  opacity: .9;
 }
-.container_2_missions {
+.container_2_missions section {
   display: flex;
-  background-image: url("images/east-rim-of-endeavour-crater.jpg");
+  width: 100%;
+  background: url('../images/east-rim-of-endeavour-crater.jpg') no-repeat;
+  background-size: cover;
+  opacity: .8;
 }
-.container_3_missions {
+.container_3_missions h2 {
   display: flex;
-  background-image: url("images/mount-sharp_galeCrater.jpg");
+  width: 81%;
+  background: url('../images/mount-sharp_galeCrater.jpg') no-repeat;
+  background-size: cover;
+  padding: 10%;
 }
-.container_4_missions {
+.container_4_missions section {
   display: flex;
-  background-image: url("images/Mars-2020-mission.jpg");
+  width: 100%;
+  background: url('../images/Mars-2020-mission.jpg') no-repeat;
+  background-size: cover;
 }
 .container_5_footer {
   display: flex;
@@ -290,7 +301,27 @@ p {
   padding: 10px;
   border-top: 2px solid black;
 }
-
+.col-1_missions h2 {
+  color: #E36822;
+  font-size: 40px;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  text-align: center;
+  width: 50%;
+}
+.col-1_missions h3 {
+  color: #E36822;
+  font-size: 25px;
+}
+.col-1_missions p {
+  max-width: 400px;
+  color: white;
+}
+.col-1_missions aside p {
+  float: right;
+  color: white;
+  max-width: 300px;
+  color: black;
+}
 
 
 /* help
@@ -452,7 +483,17 @@ a.action-sojourner {
   padding: 5px;
   margin-top: 90px;
 }
-
+a.action-laboratory {
+  color: black;
+  background-color: #A2F4E4;
+  border: 2px solid black;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  width: 30%;
+  float: right;
+  padding: 10px;
+}
 
 /*  Images
 ------------*/
@@ -936,27 +977,5 @@ header {
 .main-heading {
   font-size: 65px;
   text-align: left;
-}
-.container_1_missions {
-  display: flex;
-  width: 100%;
-  background:linear-gradient(rgba(255,255,255,0),
-  rgba(255,255,255,0)),
-  url('images/Twin-peaks.jpg');
-  background-attachment: static;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.container_2_missions {
-  background-image: url("images/east-rim-of-endeavour-crater.jpg");
-  background-size: cover;
-}
-.container_3_missions {
-  background-image: url("images/mount-sharp_galeCrater.jpg");
-  background-size: cover;
-}
-.container_4_missions {
-  background-image: url("images/Mars-2020-mission.jpg");
-  background-size: cover;
 }
 }
