@@ -194,32 +194,40 @@ p {
   display: flex;
   width: 100%;
 }
-.container_1_missions section {
+.container_1_missions {
   display: flex;
   width: 100%;
   background: url('../images/Twin-peaks.jpg') no-repeat;
   background-size: cover;
   opacity: .9;
 }
-.container_2_missions section {
+.container_2_missions {
   display: flex;
   width: 100%;
   background: url('../images/east-rim-of-endeavour-crater.jpg') no-repeat;
   background-size: cover;
   opacity: .8;
 }
-.container_3_missions h2 {
+.container_2_missions h2 {
+  display: inline;
+}
+.container_3_missions {
   display: flex;
-  width: 81%;
+  width: 100%;
   background: url('../images/mount-sharp_galeCrater.jpg') no-repeat;
   background-size: cover;
-  padding: 10%;
 }
-.container_4_missions section {
+.container_3_missions h2 {
+  display: inline;
+}
+.container_4_missions {
   display: flex;
   width: 100%;
   background: url('../images/Mars-2020-mission.jpg') no-repeat;
   background-size: cover;
+}
+.container_4_missions h2 {
+  display: inline;
 }
 .container_5_footer {
   display: flex;
@@ -256,9 +264,8 @@ p {
   flex: 1;
 }
 .col-1_rovers, .col-4, .col-1_launches, .col-2_launches,
-.col-4_launches, .col-5_launches, .col-1_missions, .col-2_missions, .col-1_exploration,
-.col-2_exploration, .col-1_laboratory, .col-2_laboratory, .col-1_2020,
-.col-2_2020, .col-1_pictures, .footer {
+.col-4_launches, .col-5_launches, .col-2_missions, .col-2_exploration,
+.col-2_laboratory, .col-2_2020, .col-1_pictures, .footer {
   padding: 5px;
 }
 .col-1  {
@@ -322,24 +329,77 @@ p {
   color: #E36822;
   font-size: 40px;
   font-family: 'nasalization', 'Arial', 'sans-serif';
-  text-align: center;
-  width: 50%;
+  max-width: 100px;
+  display: inline;
 }
 .col-1_missions h3 {
   color: #E36822;
   font-size: 25px;
 }
 .col-1_missions p {
-  max-width: 400px;
+  max-width: 670px;
   color: white;
 }
 .col-1_missions aside p {
   float: right;
   color: white;
   max-width: 300px;
+}
+.col-1_exploration h2 {
+  color: white;
+  font-size: 40px;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  width: 50%;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.col-1_exploration p {
+  max-width: 670px;
+}
+.col-1_exploration aside p {
+  float: right;
+  max-width: 200px;
+  color: white;
+}
+.col-1_laboratory, .col-1_2020, .col-1_exploration, .col-1_missions {
+  padding: 10px;
+}
+.col-1_laboratory p {
+  max-width: 700px;
+}
+.col-1_laboratory h2 {
+  color: #E36822;
+  font-size: 40px;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  width: 50%;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.col-2_laboratory p {
+  float: right;
+  max-width: 200px;
+  color: white;
+}
+.col-1_2020 {
+  max-width: 600px;
+}
+.col-1_2020 h2 {
+  color: white;
+  font-size: 40px;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  width: 50%;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.col-1_2020 p {
+  color: white;
+}
+.col-2_2020 p {
   color: black;
 }
-
 
 /* help
 .col-1_missions {
