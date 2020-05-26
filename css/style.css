@@ -36,7 +36,11 @@ html, body {
   color: #E36822;
   text-align: left;
   font-family: 'nasalization', 'Arial', 'sans-serif';
-  font-size: 65px;
+  font-size: 70px;
+  position: relative;
+  top: 60px;
+  left: 30px;
+  text-decoration: none;
 }
 .main-heading a:link {
   color: white;
@@ -400,6 +404,9 @@ p {
 .col-2_2020 p {
   color: black;
 }
+.col-1_pictures {
+  display: inline-block;
+}
 
 /* help
 .col-1_missions {
@@ -620,7 +627,6 @@ figcaption {
 .opportunity´s_shadow {
   width: 30%;
   border: 2px solid white;
-  float: left;
 }
 
 
@@ -778,7 +784,10 @@ header {
 }
 .main-heading a:link {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 40px;
+  position: relative;
+  top: -75px;
+  left: -20px;
 }
 .information {
   color: black;
@@ -980,6 +989,10 @@ nav li a {
 }
 .main-heading {
   font-size: 60px;
+  position: relative;
+  top: 40px;
+  left: 20px;
+  text-decoration: none;
 }
 header {
   height: 120px;
