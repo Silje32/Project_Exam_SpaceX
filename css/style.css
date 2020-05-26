@@ -747,6 +747,10 @@ header {
 .container_rovers {
   display: none;
 }
+.sojourner-heading, .opportunity-heading, .curiosity-heading, .perseverance-heading {
+  font-size: 35px;
+  text-transform: uppercase;
+}
 .container_1_contact, .container_2_contact  {
   width: 100%;
 }
@@ -761,13 +765,17 @@ header {
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches,
 .col-1_missions, .col-2_missions, .col-1_exploration, .col-2_exploration,
-.col-1_laboratory, .col-2_laboratory, .col-1_2020,
-.col-2_2020 {
+.col-1_laboratory, .col-2_laboratory, .col-1_2020, .col-2_2020 {
   background: white;
-  padding: 10px;
+  padding: 15px;
 }
 .col-1 {
   order: 1;
+}
+.col-1 p {
+  max-width: 450px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 .col-2 {
   order: 2;
@@ -847,24 +855,45 @@ figcaption {
   display: inline-block;
   width: 100%;
 }
+a.action-sojourner {
+  width: 40%;
+  float: right;
+  padding: 10px;
+  margin-top: 20px;
+}
+a.action {
+  width: 40%;
+  float: right;
+  padding: 10px;
+}
 
 /*  Images
 ------------*/
 .sojourner {
-  width: 97%;
-  margin-left: 5px;
+  width: 99%;
+  position: relative;
+  left: -15px;
+  border: 2px solid #7F7967;
 }
 .opportunity {
   width: 100%;
+  border: 2px solid #7F7967;
 }
 .spirit {
   width: 100%;
+  border: 2px solid #7F7967;
 }
 .curiosity {
-  width: 95%;
+  width: 100%;
+  border: 2px solid #7F7967;
+  position: relative;
+  left: -10px;
 }
 .perseverance {
   width: 100%;
+  border: 2px solid #7F7967;
+  position: relative;
+  left: -2px;
 }
 }
 
