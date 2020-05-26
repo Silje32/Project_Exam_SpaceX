@@ -503,10 +503,12 @@ nav li a:hover {
 button {
   background: #A2F4E4;
   color: black;
-  width: 20%;
-  padding: 5px;
+  width: 40%;
+  padding: 10px;
   float: right;
   border: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
 }
 form div {
   margin: 10px 10px;
@@ -616,6 +618,7 @@ a.action-laboratory {
 }
 .gateway {
   width: 100%;
+  border: 2px solid #7F7967;
 }
 figcaption {
   color: black;
@@ -807,6 +810,11 @@ header {
 .new {
   color: black;
 }
+button {
+  width: 40%;
+  padding: 15px;
+  float: right;
+}
 .gateway-heading {
   color: black;
 }
@@ -821,9 +829,6 @@ form {
 }
 .select {
   margin-left: 15px;
-}
-button {
-  width: 40%;
 }
 .search {
   display: none;
