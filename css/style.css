@@ -1013,7 +1013,8 @@ a.action {
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 .container_1, .container_2, .container_1_launches, .container_2_launches,
 .container_3_launches, .container_1_contact, .container_1_missions,
-.container_2_missions, .container_3_missions, .container_4_missions, .container_5_missions  {
+.container_2_missions, .container_3_missions, .container_4_missions, .container_5_missions,
+.slideshow-container  {
     flex-direction: column;
 }
 body {
@@ -1030,7 +1031,8 @@ body {
 .col-1_launches, .col-2_launches  {
   border-bottom-width: 5px solid #E36822;
 }
-.col-1_launches, .col-2_launches, .col-3_launches, .col-4_launches, .col-5_launches {
+.col-1_launches, .col-2_launches, .col-3_launches, .col-4_launches, .col-5_launches,
+.slideshow-container {
   width: 95%;
 }
 
@@ -1194,7 +1196,7 @@ a.action-artemis {
   max-width: 400px;
   position: relative;
   margin: auto;
-  display: block;
+  display: inline-block;
 }
 
 /* Hide the images by default */
