@@ -792,6 +792,9 @@ header {
 .col-5 {
   order: 5;
 }
+.col-1_contact, .col-2_contact {
+  border: 2px solid black;
+}
 .col-1_mission {
   order: 1;
 }
