@@ -148,7 +148,7 @@ science-heading {
   color: #E36822;
 }
 .pictures-heading a:visited {
-  color: #7F7967;
+  color: #E36822;
 }
 .pictures-heading a:hover {
   color: black;
@@ -167,6 +167,13 @@ p {
 .gallery {
   background: rgb(100,98,102);
   height: 800px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.gallery-sojourner {
+  background: rgb(100,98,102);
+  height: 647px;
   width: 95%;
   margin: 0 auto;
   padding: 10px;
@@ -202,7 +209,7 @@ p {
 .container_1_missions {
   display: flex;
   width: 100%;
-  background: url('../images/Twin-peaks.jpg') no-repeat;
+  background: url('../images/marspath.gif') no-repeat;
   background-size: cover;
   opacity: .9;
 }
@@ -628,18 +635,46 @@ figcaption {
 }
 
 /* Mars Pathfinder Mission */
-.opportunity´s_tracks {
+.sol-36 {
   width: 30%;
   border: 2px solid white;
   position: absolute;
   left: 47px;
 }
-.opportunity´s_shadow {
+.path {
+  width: 25%;
+  border: 2px solid white;
+  position: absolute;
+  left: 437px;
+  top: 445px;
+}
+.peaks {
+  width: 34%;
+  border: 2px solid white;
+  position: absolute;
+  left: 765px;
+  top: 445px;
+}
+.graphic {
   width: 30%;
   border: 2px solid white;
   position: absolute;
-  left: 440px;
-  top: 445px;
+  left: 47px;
+  top: 700px;
+}
+.super-pan {
+  width: 25%;
+  border: 2px solid white;
+  position: absolute;
+  left: 437px;
+  top: 750px;
+}
+.Moe {
+  width: 34%;
+  border: 2px solid white;
+  position: absolute;
+  left: 765px;
+  top: 650px;
 }
 
 /* Mars Exploration Rovers Mission */
@@ -647,14 +682,14 @@ figcaption {
   width: 30%;
   border: 2px solid white;
   position: relative;
-  left: 47px;
+  left: -30px;
 }
 .opportunity´s_shadow {
-  width: 30%;
+  width: 26%;
   border: 2px solid white;
   position: absolute;
-  left: 440px;
-  top: 445px;
+  left: 420px;
+  top: 1435px;
 }
 
 
@@ -669,10 +704,11 @@ figcaption {
   width: 25%;
   border: 2px solid white;
   position: absolute;
-  top: 2397px;
+  top: 2425px;
   left: 457px;
 }
-.slideshow-container {
+.slideshow-container_1, .slideshow-container_2, .slideshow-container_3, .prev,
+.next, .numbertext, .text, .dot  {
   display: none;
 }
 
@@ -934,12 +970,30 @@ a.action {
 /* Slideshow */
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container_1 {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  background: url('../images/') no-repeat;
+  background: url('../images/') no-repeat;
+  background: cover;
 }
-
+.slideshow-container_2 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background: url('../images/') no-repeat;
+  background: url('../images/') no-repeat;
+  background: cover;
+}
+.slideshow-container_3 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background: url('../images/') no-repeat;
+  background: url('../images/') no-repeat;
+  background: cover;
+}
 /* Hide the images by default */
 .mySlides {
   display: none;
@@ -1189,15 +1243,37 @@ a.action-artemis {
 .container_1_pictures, .container_2_pictures, .container_3_pictures  {
   display: none;
 }
+
 /* Slideshow */
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container_1 {
   max-width: 400px;
   position: relative;
   margin: auto;
   display: inline-block;
+  background: url('../images/opportunity-looks-back.jpg') no-repeat;
+  background: url('../images/rovershadow-opportunity.jpg') no-repeat;
 }
+.slideshow-container_2 {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+  background: url('../images/') no-repeat;
+  background: url('../images/') no-repeat;
+  background: cover;
+  display: inline-block;
+}
+.slideshow-container_3 {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+  background: url('../images/') no-repeat;
+  background: url('../images/') no-repeat;
+  background: cover;
+  display: inline-block;
+}
+
 
 /* Hide the images by default */
 .mySlides {
