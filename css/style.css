@@ -274,13 +274,11 @@ p {
 }
 .col-1_rovers, .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
 .col-4_launches, .col-5_launches, .col-1_contact, .col-2_contact, .col-1_missions, .col-1_exploration,
-.col-2_exploration, .col-1_laboratory, .col-2_laboratory,
-.col-1_2020, .col-2_2020, .col-1_pictures, .footer {
+.col-1_laboratory, .col-2_laboratory, .col-1_2020, .col-2_2020, .col-1_pictures, .footer {
   flex: 1;
 }
 .col-1_rovers, .col-4, .col-1_launches, .col-2_launches, .col-4_launches,
-.col-5_launches, .col-2_exploration, .col-2_laboratory, .col-2_2020,
-.col-1_pictures, .footer {
+.col-5_launches, .col-2_laboratory, .col-2_2020, .col-1_pictures, .footer {
   padding: 5px;
 }
 .col-1_rovers {
@@ -393,21 +391,54 @@ section .missions-7-days div {
   padding: 10px;
   font-size: 14px;
 }
-.col-1_exploration h2 {
+.col-1_exploration h2, .col-1_exploration h3, .col-1_exploration p,
+.exploration-discoveries h2  {
   color: white;
+}
+.col-1_exploration h2 {
   font-size: 40px;
   font-family: 'nasalization', 'Arial', 'sans-serif';
-  width: 50%;
+  width: 60%;
+  position: relative;
+  top: 30px;
+}
+.col-1_exploration h3 {
+  font-size: 25px;
   padding: 15px;
-  margin-top: 10px;
-  margin-bottom: 15px;
 }
-.col-1_exploration p {
-  max-width: 670px;
+.col-1_exploration div {
+  max-width: 700px;
+  font-style: italic;
+  padding: 10px;
+  font-size: 18px;
 }
-.col-1_exploration aside p {
-  float: right;
-  max-width: 200px;
+.exploration-discoveries div {
+  max-width: 600px;
+}
+.exploration-discoveries h2 {
+  font-size: 20px;
+}
+.exploration-discoveries p {
+  font-style: normal;
+}
+.exploration-info {
+  background: black;
+  opacity: .5;
+  border: 2px solid white;
+  max-width: 360px;
+  position: absolute;
+  top: 1140px;
+  left: 900px;
+  padding: 10px;
+}
+.exploration-info p {
+  color: white;
+  font-size: 17px;
+  font-style: italic;
+  max-width: 210px;
+}
+.exploration-discoveries h2 {
+  font-size: 40px;
   color: white;
 }
 .col-1_laboratory, .col-1_2020, .col-1_exploration, .col-1_missions {
@@ -624,6 +655,19 @@ a.action-mission {
   position: absolute;
   top: 1000px;
   left: 770px;
+  padding: 10px;
+}
+a.action-exploration {
+  color: black;
+  background-color: #A2F4E4;
+  border: 2px solid black;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  width: 30%;
+  position: absolute;
+  top: 1950px;
+  left: 800px;
   padding: 10px;
 }
 a.action-laboratory {
@@ -872,8 +916,8 @@ header {
   color: black;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches,
-.col-1_missions, .col-1_exploration, .col-2_exploration,
-.col-1_laboratory, .col-2_laboratory, .col-1_2020, .col-2_2020 {
+.col-1_missions, .col-1_exploration, .col-1_laboratory, .col-2_laboratory,
+.col-1_2020, .col-2_2020 {
   background: white;
   padding: 15px;
 }
@@ -1105,8 +1149,8 @@ body {
   max-width: 768px;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches,
-.col-1_missions, .col-1_exploration, .col-2_exploration,
-.col-1_laboratory, .col-2_laboratory, .col-1_2020 {
+.col-1_missions, .col-1_exploration, .col-1_laboratory, .col-2_laboratory,
+.col-1_2020 {
   padding: 10px;
 }
 .col-1_launches, .col-2_launches  {
@@ -1124,7 +1168,6 @@ body {
 section .missions-discoveries h2 {
   text-transform: uppercase;
   text-transform: full-width;
-  color: pink;
 }
 section .missions-discoveries h3 {
   font-size: 25px;
@@ -1231,7 +1274,7 @@ nav li a {
   padding: 16px;
   margin-left: 1%;
 }
-.menu, .nav-menu, .missions-info, .col-2_exploration, .col-2_laboratory, .col-2_2020,
+.menu, .nav-menu, .missions-info, .exploration-info, .col-2_laboratory, .col-2_2020,
 .container_1_pictures, .container_2_pictures, .container_3_pictures  {
   display: none;
 }
@@ -1411,8 +1454,5 @@ header {
 .main-heading {
   font-size: 65px;
   text-align: left;
-}
-.pathfinder-heading {
-
 }
 }
