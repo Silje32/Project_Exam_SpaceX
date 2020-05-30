@@ -137,9 +137,6 @@ science-heading {
   float: left;
   font-size: 20px;
 }
-.pathfinder-heading {
-
-}
 .pictures-heading {
   color: #E36822;
   font-size: 40px;
@@ -363,22 +360,38 @@ p {
   padding: 15px;
 }
 .col-1_missions div p {
-  max-width: 670px;
-  color: black;
-  font-size: 19px;
+  max-width: 630px;
+  color: white;
+  font-size: 20px;
   font-style: italic;
+  padding: 5px;
+}
+section .missions-discoveries h3 {
+  padding: 5px;
+  position: relative;
+  left: 5px;
 }
 section .missions-discoveries p {
   color: white;
   font-size: 20px;
+  font-style: normal;
   padding: 10px;
+  max-width: 1100px;
+}
+section .missions-7-days div {
+  color: white;
+  max-width: 330px;
 }
 .missions-info  {
-  color: white;
+  background: black;
+  opacity: .5;
+  border: 2px solid white;
   max-width: 350px;
-  position: relative;
-  top: 10px;
-  left: 100px;
+  position: absolute;
+  top: 370px;
+  left: 800px;
+  padding: 10px;
+  font-size: 14px;
 }
 .col-1_exploration h2 {
   color: white;
@@ -608,9 +621,9 @@ a.action-mission {
   text-align: center;
   font-family: 'nasalization', 'Arial', 'sans-serif';
   width: 30%;
-  position: relative;
-  top: 1px;
-  left: 1100px;
+  position: absolute;
+  top: 1000px;
+  left: 770px;
   padding: 10px;
 }
 a.action-laboratory {
@@ -1108,12 +1121,14 @@ body {
   font-size: 20px;
   text-align: center;
 }
-section .missions-discoveries h3 {
-  font-size: 30px;
-  color: black;
+section .missions-discoveries h2 {
   text-transform: uppercase;
   text-transform: full-width;
-  text-align: center;
+  color: pink;
+}
+section .missions-discoveries h3 {
+  font-size: 25px;
+  color: white;
 }
 section .missions-discoveries p {
   color: white;
