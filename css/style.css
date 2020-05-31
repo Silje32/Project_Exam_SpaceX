@@ -131,12 +131,6 @@ html, body {
   font-family: 'Arial', 'sans-serif';
   text-align: center;
 }
-science-heading {
-  font-family: 'nasalization', 'Arial', 'sans-serif';
-  color: #E36822;
-  float: left;
-  font-size: 20px;
-}
 .pictures-heading {
   color: #E36822;
   font-size: 40px;
@@ -274,11 +268,11 @@ p {
 }
 .col-1_rovers, .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
 .col-4_launches, .col-5_launches, .col-1_contact, .col-2_contact, .col-1_missions, .col-1_exploration,
-.col-1_laboratory, .col-2_laboratory, .col-1_2020, .col-2_2020, .col-1_pictures, .footer {
+.col-1_laboratory, .col-1_2020, .col-2_2020, .col-1_pictures, .footer {
   flex: 1;
 }
 .col-1_rovers, .col-4, .col-1_launches, .col-2_launches, .col-4_launches,
-.col-5_launches, .col-2_laboratory, .col-2_2020, .col-1_pictures, .footer {
+.col-5_launches, .col-2_2020, .col-1_pictures, .footer {
   padding: 5px;
 }
 .col-1_rovers {
@@ -343,8 +337,9 @@ p {
   border-top: 2px solid black;
 }
 .col-1_missions h2 {
-  color: black;
+  color: white;
   font-size: 40px;
+  text-shadow: 0 0 15px #ccc, 0 0 4px white;
   font-family: 'nasalization', 'Arial', 'sans-serif';
   max-width: 100px;
   display: inline;
@@ -399,6 +394,8 @@ section .missions-7-days div {
   font-size: 40px;
   font-family: 'nasalization', 'Arial', 'sans-serif';
   width: 60%;
+  text-shadow: 0 0 15px #ccc, 0 0 4px white;
+  padding: 15px;
   position: relative;
   top: 30px;
 }
@@ -435,7 +432,7 @@ section .missions-7-days div {
   color: white;
   font-size: 17px;
   font-style: italic;
-  max-width: 210px;
+  max-width: 220px;
 }
 .exploration-discoveries h2 {
   font-size: 40px;
@@ -446,20 +443,47 @@ section .missions-7-days div {
 }
 .col-1_laboratory p {
   max-width: 700px;
+  padding: 10px;
 }
 .col-1_laboratory h2 {
-  color: #E36822;
+  color: black;
   font-size: 40px;
   font-family: 'nasalization', 'Arial', 'sans-serif';
   width: 50%;
+  text-shadow: 0 0 15px #ccc, 0 0 4px black;
   padding: 15px;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  position: relative;
+  top: 30px;
 }
-.col-2_laboratory p {
-  float: right;
-  max-width: 200px;
+.col-1_laboratory h3 {
+  font-size: 25px;
+  padding: 15px;
+}
+.col-1_laboratory div {
+  max-width: 700px;
+  font-style: italic;
+  padding: 5px;
+  font-size: 18px;
+}
+.laboratory-discoveries p {
+  font-size: 18px;
+  font-style: normal;
+}
+.laboratory-info {
+  background: black;
+  opacity: .5;
+  border: 2px solid white;
+  max-width: 360px;
+  position: absolute;
+  top: 2100px;
+  left: 900px;
+  padding: 10px;
+}
+.laboratory-info p {
   color: white;
+  font-size: 17px;
+  font-style: italic;
+  max-width: 240px;
 }
 .col-1_2020 {
   max-width: 600px;
@@ -678,7 +702,9 @@ a.action-laboratory {
   text-align: center;
   font-family: 'nasalization', 'Arial', 'sans-serif';
   width: 30%;
-  float: right;
+  position: absolute;
+  top: 2670px;
+  left: 800px;
   padding: 10px;
 }
 
