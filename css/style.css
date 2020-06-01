@@ -268,11 +268,11 @@ p {
 }
 .col-1_rovers, .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches, .col-3_launches,
 .col-4_launches, .col-5_launches, .col-1_contact, .col-2_contact, .col-1_missions, .col-1_exploration,
-.col-1_laboratory, .col-1_2020, .col-2_2020, .col-1_pictures, .footer {
+.col-1_laboratory, .col-1_2020, .col-1_pictures, .footer  {
   flex: 1;
 }
-.col-1_rovers, .col-4, .col-1_launches, .col-2_launches, .col-4_launches,
-.col-5_launches, .col-2_2020, .col-1_pictures, .footer {
+.col-1_rovers, .col-4, .col-1_launches, .col-2_launches, .col-4_launches, .col-5_launches,
+.col-1_pictures, .footer  {
   padding: 5px;
 }
 .col-1_rovers {
@@ -494,14 +494,74 @@ section .missions-7-days div {
   font-family: 'nasalization', 'Arial', 'sans-serif';
   width: 50%;
   padding: 15px;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  text-shadow: 0 0 15px #ccc, 0 0 4px white;
+  position: relative;
+  top: 30px;
+}
+.col-1_2020 h3 {
+  font-size: 20px;
+  padding: 15px;
+  position: relative;
+  top: 20px;
+  color: white;
 }
 .col-1_2020 p {
   color: white;
+  font-style: italic;
+  padding: 10px;
+  font-size: 18px;
 }
-.col-2_2020 p {
-  color: black;
+.mission_1-2020 p {
+  padding: 5px;
+  font-style: normal;
+}
+.mission_2-2020 p {
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  max-width: 1000px;
+}
+.mission_2-2020 h3 {
+  text-align: left;
+}
+h4 {
+  font-size: 15px;
+  font-family: 'Arial', 'sans-serif';
+  color: white;
+}
+.goal-1, .goal-2, .goal-3, .goal-4 {
+  background: black;
+  opacity: .4;
+  border: 2px solid white;
+  max-width: 200px;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+.goal-1 {
+  position: relative;
+  left: 25px;
+}
+.goal-2 {
+ position: absolute;
+ top: 3535px;
+ left: 270px;
+}
+.goal-3 {
+position: relative;
+left: 25px;
+}
+.goal-4 {
+position: absolute;
+top: 3702px;
+left: 270px;
+}
+.goal-1 h4, .goal-2 h4, .goal-3 h4, .goal-4 h4 {
+  text-align: center;
+  font-size: 17px;
+}
+.goal-1 p, .goal-2 p, .goal-3 p, .goal-4 p {
+  text-align: center;
 }
 .col-1_pictures {
   display: inline-block;
@@ -675,10 +735,10 @@ a.action-mission {
   text-decoration: none;
   text-align: center;
   font-family: 'nasalization', 'Arial', 'sans-serif';
-  width: 30%;
+  width: 25%;
   position: absolute;
   top: 1000px;
-  left: 770px;
+  left: 850px;
   padding: 10px;
 }
 a.action-exploration {
@@ -688,10 +748,10 @@ a.action-exploration {
   text-decoration: none;
   text-align: center;
   font-family: 'nasalization', 'Arial', 'sans-serif';
-  width: 30%;
+  width: 25%;
   position: absolute;
   top: 1950px;
-  left: 800px;
+  left: 850px;
   padding: 10px;
 }
 a.action-laboratory {
@@ -701,13 +761,25 @@ a.action-laboratory {
   text-decoration: none;
   text-align: center;
   font-family: 'nasalization', 'Arial', 'sans-serif';
-  width: 30%;
+  width: 25%;
   position: absolute;
   top: 2670px;
-  left: 800px;
+  left: 850px;
   padding: 10px;
 }
-
+a.action-2020 {
+  color: black;
+  background-color: #A2F4E4;
+  border: 2px solid black;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  width: 25%;
+  position: absolute;
+  top: 3825px;
+  left: 850px;
+  padding: 10px;
+}
 
 /*  Images
 ------------*/
@@ -942,8 +1014,7 @@ header {
   color: black;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches,
-.col-1_missions, .col-1_exploration, .col-1_laboratory, .col-2_laboratory,
-.col-1_2020, .col-2_2020 {
+.col-1_missions, .col-1_exploration, .col-1_laboratory, .col-1_2020  {
   background: white;
   padding: 15px;
 }
@@ -1163,9 +1234,8 @@ a.action {
 /*tablet styles*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 .container_1, .container_2, .container_1_launches, .container_2_launches,
-.container_3_launches, .container_1_contact, .container_1_missions,
-.container_2_missions, .container_3_missions, .container_4_missions, .container_5_missions,
-.slideshow-container  {
+.container_3_launches, .container_1_contact, .container_1_missions, .container_2_missions,
+.container_3_missions, .container_4_missions, .container_5_missions, .slideshow-container  {
     flex-direction: column;
 }
 body {
@@ -1175,8 +1245,7 @@ body {
   max-width: 768px;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches,
-.col-1_missions, .col-1_exploration, .col-1_laboratory, .col-2_laboratory,
-.col-1_2020 {
+.col-1_missions, .col-1_exploration, .col-1_laboratory, .col-1_2020  {
   padding: 10px;
 }
 .col-1_launches, .col-2_launches  {
@@ -1300,7 +1369,7 @@ nav li a {
   padding: 16px;
   margin-left: 1%;
 }
-.menu, .nav-menu, .missions-info, .exploration-info, .col-2_laboratory, .col-2_2020,
+.menu, .nav-menu, .missions-info, .exploration-info, laboratory-info, 2020-mission,
 .container_1_pictures, .container_2_pictures, .container_3_pictures  {
   display: none;
 }
@@ -1326,8 +1395,7 @@ header {
   margin-top: 40px;
   margin-bottom: 30px;
 }
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches,
-.col-4_launches, .col-5_launches  {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-3_launches, .col-4_launches, .col-5_launches  {
   padding: 30px;
 }
 a.action-artemis {
