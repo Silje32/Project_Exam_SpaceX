@@ -1091,9 +1091,8 @@ figcaption {
   top: 10px;
   left: 350px;
 }
-.nav-menu {
+.mobile-nav {
   display: inline-block;
-  width: 100%;
 }
 a.action-sojourner {
   width: 40%;
