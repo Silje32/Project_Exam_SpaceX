@@ -994,7 +994,8 @@ body {
 header {
   height: 60px;
 }
-.container_rovers, .missions-info, .search, nav, nav li a, .blockquote {
+.container_rovers, .missions-info, .search, nav, nav li a, .blockquote, .goal-1,
+.goal-2, .goal-3, .goal-4  {
   display: none;
 }
 .sojourner-heading, .opportunity-heading, .curiosity-heading, .perseverance-heading {
@@ -1369,8 +1370,8 @@ nav li a {
   padding: 16px;
   margin-left: 1%;
 }
-.menu, .nav-menu, .missions-info, .exploration-info, laboratory-info, 2020-mission,
-.container_1_pictures, .container_2_pictures, .container_3_pictures  {
+.menu, .nav-menu, .missions-info, .exploration-info, .laboratory-info, .goal-1,
+.goal-2, .goal-3, .goal-4, .container_1_pictures, .container_2_pictures, .container_3_pictures  {
   display: none;
 }
 .artemis {
