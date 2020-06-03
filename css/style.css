@@ -95,12 +95,16 @@ html, body {
   text-align: center;
   font-family: 'Arial', 'sans-serif';
 }
-.mission {
+.mission-heading {
   text-align: center;
   color: black;
   margin-top: 50px;
   margin-bottom: 60px;
   font-size: 30px;
+}
+section .mission p {
+  text-align: center;
+  color: black;
 }
 .artemis-heading {
   font-size: 25px;
@@ -308,9 +312,14 @@ p {
 .col-2_launches {
   order: 2;
 }
-.col-3_launches {
+.col-3_launches  {
   order: 3;
   width: 20%;
+}
+.col-3_launches h3 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
 }
 .col-4_launches {
   order: 4;
@@ -983,7 +992,7 @@ figcaption {
 
 /*mobile styles*/
 @media only screen and (max-width: 480px) {
-.container_1, .container_2, .container_1_launches, .container_2_launches,
+.container_1, .container_2, .container_2_launches,
 .container_3_launches, .container_1_contact, .container_2_contact, .container_1_missions,
 .container_2_missions, .container_3_missions, .container_4_missions, .container_5_missions  {
   flex-direction: column;
@@ -994,7 +1003,7 @@ body {
 header {
   height: 60px;
 }
-.container_rovers, .missions-info, .search, nav, nav li a, .blockquote, .goal-1,
+.container_rovers, section.col-1_launches, .missions-info, .search, nav, nav li a, .blockquote, .goal-1,
 .goal-2, .goal-3, .goal-4  {
   display: none;
 }
@@ -1014,8 +1023,8 @@ header {
 .container_2_contact figcaption {
   color: black;
 }
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-1_launches, .col-2_launches,
-.col-1_missions, .col-1_exploration, .col-1_laboratory, .col-1_2020  {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-1_missions, .col-1_exploration,
+.col-1_laboratory, .col-1_2020  {
   background: white;
   padding: 15px;
 }
@@ -1037,6 +1046,36 @@ header {
   order: 4;
 }
 .col-5 {
+  order: 5;
+}
+.col-1_launches {
+  display: none;
+}
+.col-2_launches {
+  display: none;
+}
+.container_3_launches {
+  display: none;
+  order: 3;
+}
+.col-3_launches p {
+  width: 100%;
+  display: none;
+}
+.col-4_launches {
+  order: 4;
+  padding: 30px;
+}
+.mission-heading {
+  display: none;
+}
+.col-3_launches h3 {
+  display: none;
+}
+.mission p {
+  display: none;
+}
+.col-5_launches {
   order: 5;
 }
 .col-1_contact, .col-2_contact {
@@ -1548,5 +1587,25 @@ header {
 .main-heading {
   font-size: 65px;
   text-align: left;
+}
+.container_1_launches {
+  display: flex;
+  width: 100%;
+}
+.container_2_launches {
+  display: flex;
+  width: 100%;
+}
+.mission-heading {
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+.col-3_launches h3 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
 }
 }
