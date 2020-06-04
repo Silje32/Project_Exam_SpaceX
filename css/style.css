@@ -345,7 +345,7 @@ p {
   padding: 10px;
   border-top: 2px solid black;
 }
-.col-1_missions h2 {
+.col-1_missions hgroup h2 {
   color: white;
   font-size: 40px;
   text-shadow: 0 0 15px #ccc, 0 0 4px white;
@@ -1003,8 +1003,8 @@ body {
 header {
   height: 60px;
 }
-.container_rovers, section.col-1_launches, .missions-info, .search, nav, nav li a, .blockquote, .goal-1,
-.goal-2, .goal-3, .goal-4  {
+.container_rovers, section.col-1_launches, .missions-info, .search, nav, nav li a,
+section.col-1_missions, .blockquote, .goal-1, .goal-2, .goal-3, .goal-4  {
   display: none;
 }
 .sojourner-heading, .opportunity-heading, .curiosity-heading, .perseverance-heading {
@@ -1014,8 +1014,37 @@ header {
 .container_1_contact, .container_2_contact  {
   width: 100%;
 }
-.container_1_missions {
+.container_1_missions, .container_2_missions, .container_4_missions, .exploration-info,
+.action-exploration, .laboratory-info  {
+  display: none;
+}
+.col-1_missions h2 {
+  color: black;
+  font-size: 20px;
+  text-shadow: 0 0 15px #ccc, 0 0 4px white;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
   width: 50%;
+  display: inline;
+  padding: 10px;
+}
+section .missions-7-days div {
+  color: black;
+  max-width: 100px;
+}
+.col-1_laboratory h2 {
+  color: white;
+  font-size: 20px;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  width: 50%;
+  text-shadow: 0 0 15px #ccc, 0 0 4px black;
+  padding: 25px;
+}
+.col-1_laboratory h3 {
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 30px;
+  color: #E36822;
+  font-style: italic;
 }
 .container_2_contact p {
   color: black;
@@ -1024,7 +1053,7 @@ header {
   color: black;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-1_missions, .col-1_exploration,
-.col-1_laboratory, .col-1_2020  {
+.col-1_2020  {
   background: white;
   padding: 15px;
 }
@@ -1083,6 +1112,15 @@ header {
 }
 .col-1_mission {
   order: 1;
+}
+.col-1_laboratory {
+  background: black;
+  border: 5px solid white;
+}
+.col-1_laboratory p {
+  max-width: 340px;
+  padding: 5px;
+  color: white;
 }
 .main-heading a:link {
   text-decoration: none;
@@ -1143,6 +1181,14 @@ a.action {
   width: 40%;
   float: right;
   padding: 10px;
+}
+a.action-laboratory {
+  width: 55%;
+  position: relative;
+  left: 115px;
+  top: 1px;
+  padding: 12px;
+  margin-top: 20px;
 }
 
 /*  Images
@@ -1569,7 +1615,7 @@ a.action-artemis {
 
 /*desktop styles*/
 @media only screen and (min-width:769px) {
-body {
+html, body {
   max-width: 100%;
 }
 .menu, .nav-menu  {
@@ -1607,5 +1653,44 @@ header {
   color: black;
   text-align: center;
   font-size: 30px;
+}
+.container_1_missions  {
+  background: url('../images/marspath.gif') no-repeat;
+  background-size: cover;
+  opacity: .9;
+}
+.col-1_missions hgroup h2 {
+  color: black;
+  font-size: 40px;
+  max-width: 100px;
+}
+section .missions-7-days div {
+  color: white;
+  max-width: 330px;
+}
+.col-1_laboratory h2 {
+  color: black;
+  font-size: 40px;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  width: 50%;
+  text-shadow: 0 0 15px #ccc, 0 0 4px black;
+  padding: 15px;
+  position: relative;
+  top: 30px;
+}
+.col-1_laboratory h3 {
+  font-size: 25px;
+  padding: 15px;
+}
+.col-1_laboratory p {
+  max-width: 700px;
+  padding: 10px;
+}
+a.action-laboratory {
+  width: 25%;
+  position: absolute;
+  top: 2670px;
+  left: 850px;
+  padding: 10px;
 }
 }
