@@ -140,11 +140,25 @@ section .mission p {
   text-align: center;
   margin-bottom: 30px;
 }
-.video-heading {
+.video-heading-1 {
   color: #E36822;
-  text-align: center;
-  font-size: 30px;
+  font-size: 50px;
+  text-shadow: 0 0 15px #ccc, 0 0 4px black;
   font-family: 'nasalization', 'Arial', 'sans-serif';
+  position: absolute;
+  top: 1130px;
+  left: 80px;
+}
+.video-heading-2 {
+  color: #E36822;
+  text-align: left;
+  font-size: 50px;
+  text-shadow: 0 0 15px #ccc, 0 0 4px black;
+  font-family: 'nasalization', 'Arial', 'sans-serif';
+  padding: 20px;
+  position: absolute;
+  top: 3020px;
+  left: 80px;
 }
 .information {
   color: black;
@@ -227,6 +241,7 @@ p {
 }
 .container_3_launches {
   display: flex;
+  background: black;
 }
 .container_1_contact {
   display: flex;
@@ -871,7 +886,7 @@ a.action-2020 {
   border: 2px solid #7F7967;
 }
 figcaption {
-  color: black;
+  color: #7F7967;
   font-family: 'Georgia', 'serif';
 }
 
@@ -962,51 +977,59 @@ figcaption {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
+  background: black;
 }
 .video-container_1 iframe,
 .video-container_1 object,
 .video-container_1 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   width: 100%;
   height: 100%;
+  border: 2px solid white;
 }
 .video-container_2 iframe,
 .video-container_2 object,
 .video-container_2 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 70px;
+  left: 0px;
   width: 100%;
   height: 100%;
+  border: 2px solid white;
 }
 .video-container_3 iframe,
 .video-container_3 object,
 .video-container_3 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 75px;
+  left: 0px;
   width: 100%;
   height: 100%;
+  border: 2px solid white;
 }
 .video-container_4 iframe,
 .video-container_4 object,
 .video-container_4 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 79px;
+  left: 0px;
   width: 100%;
   height: 100%;
+  margin-top: 50px;
+  border: 2px solid white;
 }
 .video-container_5 iframe,
 .video-container_5 object,
 .video-container_5 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 85px;
+  left: 0px;
   width: 100%;
   height: 100%;
+  margin-bottom: 50px;
+  border: 2px solid white;
 }
 .video-container_6 iframe,
 .video-container_6 object,
@@ -1016,6 +1039,7 @@ figcaption {
   left: 0;
   width: 100%;
   height: 100%;
+  border: 2px solid white;
 }
 .video-container_7 iframe,
 .video-container_7 object,
@@ -1025,15 +1049,32 @@ figcaption {
   left: 0;
   width: 100%;
   height: 100%;
+  border: 2px solid white;
 }
-.video-wrapper {
+.figcaption-1 figcaption {
+  color: white;
+  position: relative;
+  top: 456px;
+  left: 30px;
+}
+.video-wrapper-missions {
   width: 640px;
   float: left;
   margin-left: 10px;
   margin-right: auto;
+  margin-top: 50px;
   max-width: 100%;
+  background: #E36822;
 }
-
+.video-wrapper-launch {
+  width: 640px;
+  float: left;
+  margin-left: 10px;
+  margin-right: auto;
+  margin-top: 200px;
+  max-width: 100%;
+  background: #A2F4E4;
+}
 
 /* Media Queries
 -------------------*/
