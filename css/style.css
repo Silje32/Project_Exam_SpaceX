@@ -7,19 +7,45 @@
 */
 
 
-
-
 /* Global styles
 -------------------*/
-
 @font-face {
-    font-family: 'nasalization-rg';
-    src: url('webfont/nasalization-rg-webfont.woff2') format('woff2'),
-         url('webfont/nasalization-rg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+font-family: 'nasalization-rg';
+font-style: normal;
+font-weight: normal;
+src: url('webfont/nasalization-rg-webfont.woff2') format('woff2'),
+     url('webfont/nasalization-rg-webfont.woff') format('woff');
 
 }
+@font-face {
+font-family: 'Georgia Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Georgia Regular'), url('georgia.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Georgia Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Georgia Italic'), url('georgiai.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Georgia Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Georgia Bold'), url('georgiab.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Georgia Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Georgia Bold Italic'), url('georgiaz.woff') format('woff');
+}
+
+
 header, section, footer, aside, nav, article, figure, figcaption {
   display: block;
 }
@@ -105,6 +131,7 @@ html, body {
 section .mission p {
   text-align: center;
   color: black;
+  font-family: 'Georgia', 'serif';
 }
 .artemis-heading {
   font-size: 25px;
@@ -153,6 +180,7 @@ section .mission p {
 }
 p {
   color: black;
+  font-family: 'Georgia', 'serif';
 }
 .blockquote {
   color : white;
@@ -290,6 +318,7 @@ p {
   max-width: 420px;
   margin-top: 20px;
   margin-left: 100px;
+  font-family: 'Georgia', 'serif';
 }
 .col-2 {
   order: 2;
@@ -329,6 +358,7 @@ p {
   max-width: 360px;
   font-size: 18px;
   margin-left: 120px;
+  font-family: 'Georgia', 'serif';
 }
 .col-5_launches {
   order: 5;
@@ -367,6 +397,7 @@ p {
   font-size: 20px;
   font-style: italic;
   padding: 5px;
+  font-family: 'Georgia', 'serif';
 }
 section .missions-discoveries h3 {
   padding: 5px;
@@ -379,10 +410,12 @@ section .missions-discoveries p {
   font-style: normal;
   padding: 10px;
   max-width: 1100px;
+  font-family: 'Georgia', 'serif';
 }
 section .missions-7-days div {
   color: white;
   max-width: 330px;
+  font-family: 'Georgia', 'serif';
 }
 .missions-info  {
   background: black;
@@ -394,6 +427,7 @@ section .missions-7-days div {
   left: 800px;
   padding: 10px;
   font-size: 14px;
+  font-family: 'Georgia', 'serif';
 }
 .col-1_exploration h2, .col-1_exploration h3, .col-1_exploration p,
 .exploration-discoveries h2  {
@@ -417,15 +451,18 @@ section .missions-7-days div {
   font-style: italic;
   padding: 10px;
   font-size: 18px;
+  font-family: 'Georgia', 'serif';
 }
 .exploration-discoveries div {
   max-width: 600px;
+  font-family: 'Georgia', 'serif';
 }
 .exploration-discoveries h2 {
   font-size: 20px;
 }
 .exploration-discoveries p {
   font-style: normal;
+  font-family: 'Georgia', 'serif';
 }
 .exploration-info {
   background: black;
@@ -442,6 +479,7 @@ section .missions-7-days div {
   font-size: 17px;
   font-style: italic;
   max-width: 220px;
+  font-family: 'Georgia', 'serif';
 }
 .exploration-discoveries h2 {
   font-size: 40px;
@@ -453,6 +491,7 @@ section .missions-7-days div {
 .col-1_laboratory p {
   max-width: 700px;
   padding: 10px;
+  font-family: 'Georgia', 'serif';
 }
 .col-1_laboratory h2 {
   color: black;
@@ -473,10 +512,12 @@ section .missions-7-days div {
   font-style: italic;
   padding: 5px;
   font-size: 18px;
+  font-family: 'Georgia', 'serif';
 }
 .laboratory-discoveries p {
   font-size: 18px;
   font-style: normal;
+  font-family: 'Georgia', 'serif';
 }
 .laboratory-info {
   background: black;
@@ -493,6 +534,7 @@ section .missions-7-days div {
   font-size: 17px;
   font-style: italic;
   max-width: 240px;
+  font-family: 'Georgia', 'serif';
 }
 .col-1_2020 {
   max-width: 600px;
@@ -519,16 +561,19 @@ section .missions-7-days div {
   font-style: italic;
   padding: 10px;
   font-size: 18px;
+  font-family: 'Georgia', 'serif';
 }
 .mission_1-2020 p {
   padding: 5px;
   font-style: normal;
+  font-family: 'Georgia', 'serif';
 }
 .mission_2-2020 p {
   color: white;
   font-size: 18px;
   font-style: normal;
   max-width: 1000px;
+  font-family: 'Georgia', 'serif';
 }
 .mission_2-2020 h3 {
   text-align: left;
@@ -571,6 +616,7 @@ left: 270px;
 }
 .goal-1 p, .goal-2 p, .goal-3 p, .goal-4 p {
   text-align: center;
+  font-family: 'Georgia', 'serif';
 }
 .col-1_pictures {
   display: inline-block;
@@ -659,6 +705,7 @@ nav li a:hover {
   display: none;
   color: red;
   font-size: 14px;
+  font-family: 'Georgia', 'serif';
 }
 #submitMessage {
   display: none;
@@ -825,6 +872,7 @@ a.action-2020 {
 }
 figcaption {
   color: black;
+  font-family: 'Georgia', 'serif';
 }
 
 /* Mars Pathfinder Mission */
