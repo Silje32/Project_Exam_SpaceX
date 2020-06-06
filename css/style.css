@@ -983,7 +983,7 @@ figcaption {
 .video-container_1 object,
 .video-container_1 embed {
   position: absolute;
-  top: 0px;
+  top: 10px;
   left: 0px;
   width: 100%;
   height: 100%;
@@ -993,7 +993,7 @@ figcaption {
 .video-container_2 object,
 .video-container_2 embed {
   position: absolute;
-  top: 70px;
+  top: 67px;
   left: 0px;
   width: 100%;
   height: 100%;
@@ -1003,7 +1003,7 @@ figcaption {
 .video-container_3 object,
 .video-container_3 embed {
   position: absolute;
-  top: 75px;
+  top: 72px;
   left: 0px;
   width: 100%;
   height: 100%;
@@ -1028,15 +1028,14 @@ figcaption {
   left: 0px;
   width: 100%;
   height: 100%;
-  margin-bottom: 50px;
   border: 2px solid white;
 }
 .video-container_6 iframe,
 .video-container_6 object,
 .video-container_6 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 86px;
+  left: 0px;
   width: 100%;
   height: 100%;
   border: 2px solid white;
@@ -1045,17 +1044,102 @@ figcaption {
 .video-container_7 object,
 .video-container_7 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 84px;
+  left: 0px;
   width: 100%;
   height: 100%;
   border: 2px solid white;
 }
-.figcaption-1 figcaption {
+.figcaption-1 figcaption, .figcaption-1_info figcaption, .figcaption-2 figcaption,
+.figcaption-2_info figcaption, .figcaption-3 figcaption, .figcaption-3_info figcaption,
+.figcaption-4 figcaption, .figcaption-4_info figcaption, .figcaption-5 figcaption,
+.figcaption-5_info figcaption, .figcaption-6 figcaption, .figcaption-6_info figcaption,
+.figcaption-7 figcaption, .figcaption-7_info figcaption  {
   color: white;
+}
+.figcaption-1_info figcaption a, .figcaption-2_info figcaption a, .figcaption-3_info figcaption a,
+.figcaption-4_info figcaption a, .figcaption-5_info figcaption a, .figcaption-6_info figcaption a,
+.figcaption-7_info figcaption a  {
+  color: #A2F4E4;
+  text-decoration: none;
+}
+.figcaption-1 figcaption {
   position: relative;
   top: 456px;
   left: 30px;
+}
+.figcaption-1_info figcaption {
+  position: absolute;
+  top: 1530px;
+  left: 650px;
+  max-width: 400px;
+}
+.figcaption-2 figcaption {
+  position: absolute;
+  top: 2075px;
+  left: 30px;
+  margin-bottom: 10px;
+}
+.figcaption-2_info figcaption {
+  position: absolute;
+  top: 2100px;
+  left: 680px;
+  max-width: 400px;
+}
+.figcaption-3 figcaption {
+  position: absolute;
+  top: 2530px;
+  left: 30px;
+}
+.figcaption-3_info figcaption {
+  position: absolute;
+  top: 2500px;
+  left: 650px;
+  max-width: 400px;
+}
+.figcaption-4 figcaption {
+  position: absolute;
+  top: 2950px;
+  left: 30px;
+}
+.figcaption-4_info figcaption {
+  position: absolute;
+  top: 3000px;
+  left: 650px;
+  max-width: 400px;
+}
+.figcaption-5 figcaption {
+  position: absolute;
+  top: 3550px;
+  left: 30px;
+}
+.figcaption-4_info figcaption  {
+  position: absolute;
+  top: 3550px;
+  left: 650px;
+  max-width: 400px;
+}
+.figcaption-6 figcaption {
+  position: absolute;
+  top: 4140px;
+  left: 30px;
+}
+.figcaption-6_info figcaption {
+  position: absolute;
+  top: 4140px;
+  left: 650px;
+  max-width: 400px;
+}
+.figcaption-7 figcaption {
+  position: absolute;
+  top: 4390px;
+  left: 30px;
+}
+.figcaption-7_info figcaption {
+  position: absolute;
+  top: 4000px;
+  left: 650px;
+  max-width: 400px;
 }
 .video-wrapper-missions {
   width: 640px;
