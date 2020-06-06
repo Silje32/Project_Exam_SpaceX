@@ -886,7 +886,7 @@ a.action-2020 {
   border: 2px solid #7F7967;
 }
 figcaption {
-  color: #7F7967;
+  color: black;
   font-family: 'Georgia', 'serif';
 }
 
@@ -1551,76 +1551,72 @@ a.action-mission {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
+  background: black;
 }
 .video-container_1 iframe,
 .video-container_1 object,
 .video-container_1 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: 0px;
   width: 100%;
   height: 100%;
+  border: 2px solid white;
 }
 .video-container_2 iframe,
 .video-container_2 object,
 .video-container_2 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 67px;
+  left: 0px;
   width: 100%;
   height: 100%;
+  border: 2px solid white;
 }
 .video-container_3 iframe,
 .video-container_3 object,
 .video-container_3 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 72px;
+  left: 0px;
   width: 100%;
   height: 100%;
+  border: 2px solid white;
 }
 .video-container_4 iframe,
 .video-container_4 object,
 .video-container_4 embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  display: none;
 }
 .video-container_5 iframe,
 .video-container_5 object,
 .video-container_5 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 80px;
+  left: 0px;
   width: 100%;
   height: 100%;
+  border: 2px solid white;
 }
 .video-container_6 iframe,
 .video-container_6 object,
 .video-container_6 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 86px;
+  left: 0px;
   width: 100%;
   height: 100%;
+  border: 2px solid white;
 }
 .video-container_7 iframe,
 .video-container_7 object,
 .video-container_7 embed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 60px;
+  left: 0px;
   width: 100%;
   height: 100%;
-}
-.video-wrapper {
-  width: 640px;
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
+  border: 2px solid white;
 }
 nav li a {
   font-size: 30px;
@@ -1645,6 +1641,44 @@ nav li a {
   top: 40px;
   left: 20px;
   text-decoration: none;
+}
+.video-heading-1 {
+  position: absolute;
+  top: 2000px;
+  left: 200px;
+}
+.video-heading-2 {
+  position: absolute;
+  top: 3860px;
+  left: 165px;
+}
+.figcaption-1_info figcaption {
+  position: absolute;
+  top: 480px;
+  left: 30px;
+}
+.figcaption-2 figcaption {
+  position: absolute;
+  top: 2000px;
+  left: 30px;
+}
+.figcaption-4_info figcaption {
+  display: none;
+}
+.figcaption-5 figcaption {
+  position: absolute;
+  top: 4500px;
+  left: 60px;
+}
+.figcaption-6 figcaption {
+  position: absolute;
+  top: 5020px;
+  left: 60px;
+}
+.figcaption-7 figcaption {
+  position: absolute;
+  top: 5600px;
+  left: 50px;
 }
 header {
   height: 120px;
@@ -1807,6 +1841,47 @@ header {
   font-size: 65px;
   text-align: left;
 }
+.video-heading-1 {
+  position: absolute;
+  top: 1130px;
+  left: 80px;
+}
+.video-heading-2 {
+  position: absolute;
+  top: 3020px;
+  left: 80px;
+}
+.figcaption-1_info figcaption {
+  position: absolute;
+  top: 1530px;
+  left: 650px;
+}
+.figcaption-2 figcaption {
+  position: absolute;
+  top: 2075px;
+  left: 30px;
+}
+.figcaption-4_info figcaption {
+  position: absolute;
+  top: 2900px;
+  left: 670px;
+  max-width: 400px;
+}
+.figcaption-5 figcaption {
+  position: absolute;
+  top: 3550px;
+  left: 30px;
+}
+.figcaption-6 figcaption {
+  position: absolute;
+  top: 4140px;
+  left: 30px;
+}
+.figcaption-7 figcaption {
+  position: absolute;
+  top: 4715px;
+  left: 30px;
+}
 .container_1_launches {
   display: flex;
   width: 100%;
@@ -1865,5 +1940,87 @@ a.action-laboratory {
   top: 2670px;
   left: 850px;
   padding: 10px;
+}
+/*  Video
+------------*/
+.video-container_1, .video-container_2, .video-container_3, .video-container_4,
+.video-container_5, .video-container_6, .video-container_7  {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  background: black;
+}
+.video-container_1 iframe,
+.video-container_1 object,
+.video-container_1 embed {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+}
+.video-container_2 iframe,
+.video-container_2 object,
+.video-container_2 embed {
+  position: absolute;
+  top: 67px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+}
+.video-container_3 iframe,
+.video-container_3 object,
+.video-container_3 embed {
+  position: absolute;
+  top: 72px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+}
+.video-container_4 iframe,
+.video-container_4 object,
+.video-container_4 embed {
+  position: absolute;
+  top: 79px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  border: 2px solid white;
+}
+.video-container_5 iframe,
+.video-container_5 object,
+.video-container_5 embed {
+  position: absolute;
+  top: 85px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+}
+.video-container_6 iframe,
+.video-container_6 object,
+.video-container_6 embed {
+  position: absolute;
+  top: 86px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+}
+.video-container_7 iframe,
+.video-container_7 object,
+.video-container_7 embed {
+  position: absolute;
+  top: 84px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
 }
 }
