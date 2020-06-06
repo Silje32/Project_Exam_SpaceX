@@ -1104,8 +1104,8 @@ figcaption {
 }
 .figcaption-4_info figcaption {
   position: absolute;
-  top: 3000px;
-  left: 650px;
+  top: 2900px;
+  left: 670px;
   max-width: 400px;
 }
 .figcaption-5 figcaption {
@@ -1113,9 +1113,9 @@ figcaption {
   top: 3550px;
   left: 30px;
 }
-.figcaption-4_info figcaption  {
+.figcaption-5_info figcaption  {
   position: absolute;
-  top: 3550px;
+  top: 3500px;
   left: 650px;
   max-width: 400px;
 }
@@ -1126,19 +1126,19 @@ figcaption {
 }
 .figcaption-6_info figcaption {
   position: absolute;
-  top: 4140px;
-  left: 650px;
+  top: 4090px;
+  left: 660px;
   max-width: 400px;
 }
 .figcaption-7 figcaption {
   position: absolute;
-  top: 4390px;
+  top: 4715px;
   left: 30px;
 }
 .figcaption-7_info figcaption {
   position: absolute;
-  top: 4000px;
-  left: 650px;
+  top: 4680px;
+  left: 670px;
   max-width: 400px;
 }
 .video-wrapper-missions {
