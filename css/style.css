@@ -13,8 +13,8 @@
 font-family: 'nasalization-rg';
 font-style: normal;
 font-weight: normal;
-src: url('webfont/nasalization-rg-webfont.woff2') format('woff2'),
-     url('webfont/nasalization-rg-webfont.woff') format('woff');
+src: url('../webfont/nasalization-rg-webfont.woff2') format('woff2'),
+     url('../webfont/nasalization-rg-webfont.woff') format('woff');
 
 }
 @font-face {
